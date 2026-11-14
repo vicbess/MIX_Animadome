@@ -1,0 +1,2378 @@
+{
+ "format": 1,
+ "mix": "pyrobeats",
+ "user": "vicbess",
+ "publishedAt": "2026-11-14T21:55:22.114Z",
+ "toolVersion": "1.0.0",
+ "audio": "audio/pyrobeats_128k.mp3",
+ "duration": 2977,
+ "phases": [
+  {
+   "id": "p00000",
+   "version": 1,
+   "hash": "9wm8se3qpz",
+   "start": 0,
+   "end": 14,
+   "title": "Terre volcanique aride, lueurs violettes",
+   "descriptif": "[00:00 => 00:14] Terre volcanique aride, lueurs violettes\nContemplation de la terre volcanique aride, aux accents violets.\n**Lueur violette lente et diffuse sur tout le dôme, très faible.**\n_Son : quasi silence puis apparition d'un son brillant et léger vers 0:12._",
+   "fx": {
+    "palette": "violet",
+    "fx": [
+     {
+      "n": "Terre violette"
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p00014",
+   "version": 1,
+   "hash": "axsc3mo4ai",
+   "start": 14,
+   "end": 135,
+   "title": "Plongée sous terre : les braises dorment et pulsent",
+   "descriptif": "[00:14 => 02:15] Plongée sous terre : les braises dorment et pulsent\nOn plonge sous terre : des braises souterraines dorment et pulsent lentement. Rougeoiement sombre.\n**▸ Braises**\n**• Une vingtaine de points lumineux rouge sombre s'allument un à un puis pulsent lentement, avec un cœur lumineux (jaune-blanc) de plus en plus marqué.**\n**• Des foyers de braises beaucoup plus petits s'ajoutent progressivement sur le même principe de pulsation lente.**\n**▸ Couleurs**\n**• Le rouge est la couleur dominante (jusqu'à la fin de la phase 3).**\n**• Le violet de la terre (phase 1) reste présent en fond jusqu'à la fin de la phase.**\n**▸ Battement**\n**• Un battement général de type « heartbeat » fait pulser toutes les LEDs ensemble, en luminance uniquement (teinte et saturation inchangées), calé sur le rythme régulier de la phase.**\n**• Très discret au début (environ 3 à 6 %) tant que le rythme est absent ; dès que le battement démarre dans le son, à 0:51, il devient franc (environ 35 % d'amplitude) puis monte jusqu'à 40 % à 2:15.**\n_Son : les graves arrivent progressivement jusqu'à 1:00 puis restent stables ; la densité rythmique augmente doucement et les médiums s'épaississent vers 1:45._\n  - [00:14 => 00:51] Apparition : les premières braises s'allument une à une.\n  - [00:51 => 02:15] Pulsations lentes, de plus en plus pleines.",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Terre violette",
+      "level": 1.4,
+      "fadeStart": 125,
+      "fadeEnd": 160
+     },
+     {
+      "n": "Braises",
+      "mode": "wake",
+      "t0": 17,
+      "t1": 51,
+      "core": true,
+      "small": true
+     },
+     {
+      "n": "Battement",
+      "t0": 14,
+      "t1": 135,
+      "a0": 0.03,
+      "a1": 0.4,
+      "onset": 51,
+      "aOn": 0.35
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p00135",
+   "version": 1,
+   "hash": "1kynuwxk2gb",
+   "start": 135,
+   "end": 280,
+   "title": "Éveil et remontée des nappes magmatiques, tunnels de lave",
+   "descriptif": "[02:15 => 04:40] Éveil et remontée des nappes magmatiques, tunnels de lave\nLes braises pulsent de plus en plus fort. De tout petits tunnels de lave se forment progressivement entre les braises, puis se multiplient et vont un peu plus vite.\n**▸ Lave**\n**• Des traits de lumière suivent les barres d'une braise à l'autre en partant tous du bas du dôme (bord) pour monter vers le centre ; ils sont de plus en plus nombreux et rapides. A partir de 3:55.8, ils commencent à ne plus se diriger vers les braises (d'ailleurs les braises disparaissent) mais uniquement vers le centre (haut) du dôme, et ce jusqu'à la fin de la phase. (Détail : dès 3:55,8 les braises s'éteignent en fondu d'environ 6 s, et le réseau de tunnels entre braises s'efface en fondu d'environ 4 s au profit de coulées continues qui montent du bord uniquement vers le sommet.) Le réseau compte environ 49 tunnels de lave comme ça.**\n**• Les fronts de lave qui progressent en serpentant sont encore plus nombreux (44 fronts, avec leur bout lumineux), répartis sur tout le pourtour du dôme (huit secteurs) pour qu'aucune zone ne reste vide ; quand ça glitche (raclements gutturaux), des serpents supplémentaires apparaissent, d'autant plus nombreux que le raclement est marqué (jusqu'à 70 fronts au plus fort) et ne partent pas toujours du même endroit : à chaque passage un front prend un chemin différent, qui serpente en se rapprochant à chaque pas du centre, et finit toujours par atteindre le sommet du dôme où il disparaît.**\n**▸ Couleurs**\n**• La dominante reste rouge jusqu'à la fin de la phase (quelques accents orangés seulement).**\n**• Pendant une montée d'intensité, les teintes des effets déjà en place glissent progressivement vers encore plus de rouge (sans nouvel effet) ; ce rouge ajouté repart ensuite pour laisser place aux couleurs de base dès que l'intensité cesse de monter ou redescend.**\n**• Le violet de fond (la terre des phases 1 et 2) reste présent au début de la phase puis disparaît progressivement, effacé à 2:40 ; les violets ponctuels (flashs des cris, halo autour de la lave) sont des ajouts indépendants.**\n**• Sur les passages calmes de 3:09,5 à 3:35,2, un violet léger entoure la lave (les barres voisines des coulées déjà parties) : il apparaît très lentement (environ 7 s) et s'efface encore plus lentement après 3:35,2 (environ 14 s).**\n**▸ Pulsations**\n**• Les pulsations lumineuses lentes (braises) suivent les basses ; seule leur petite part de rythme propre à chaque braise accélère légèrement (environ ×1,45 vers 3:40), puis revient progressivement à son rythme lent après 4:40.**\n**• Les pulsations rapides (battement général de toutes les LEDs, en luminance uniquement) sont calées sur les kicks, à environ 40 % d'amplitude : chaque kick d'une série rapide produit sa propre pulsation (flash très bref, au moins 0,17 s entre deux pulsations).**\n**• Plus une série de kicks est serrée, moins chaque pulsation est profonde (jusqu'à environ un tiers de l'amplitude pour les kicks les plus rapprochés, pleine amplitude à partir de 0,5 s d'écart), sans jamais disparaître : ça flashe toujours un peu.**\n**▸ Passages gutturaux (2:42–2:55, 2:57–3:01, 3:03–3:09 et 3:40–4:07)**\n**• TOUTES les coulées de lave avancent par à-coups en suivant la progression de ce son (et non le beat) : elles bondissent quand il éclate et s'arrêtent quand il se tait, avec un front de lave jaune-orange qui court le long de chaque coulée.**\n**• La progression est pondérée par la rugosité gutturale du timbre (piste séparée du son, plus fiable que le seul volume), de sorte que les coulées avancent presque uniquement pendant les passages vraiment gutturaux.**\n**• Plus un raclement est long, plus la traînée de lave parcourt de distance (environ 0,5 barre pour un glitch très court, plus de 10 pour un raclement de 2 s).**\n**• Ces à-coups deviennent de plus en plus marqués à partir de 3:50 (bonds plus grands, arrêts plus longs).**\n**▸ Trou de lave (nGonesA, anneau 1 : le flocon central)**\n**• Jusqu'à 2:42,0, il réagit comme le reste du dôme (sans effet de trou) ; à partir de 2:42,0 il devient jaune franc et très lumineux.**\n**• Ensuite, pour le reste de la phase, cet élément représente le trou par lequel sort la lave : son centre (les cinq rayons autour du moyeu du sommet) est très lumineux, jaune franc (soustrait à l'étalonnage rouge de la phase, pour rester jaune) ; son contour garde la couleur qu'il avait avant, en plus lumineux.**\n**• De 3:16,6 à 3:40,3, à chaque note de synthé (visible dans la piste Aigus), il devient encore plus lumineux que tout le reste (le reste s'atténue légèrement pendant la note).**\n**• Pendant les events Vibration et Ruée, il est aussi bien lumineux, calé sur les kicks.**\n**▸ Transition**\n**• Le passage depuis la phase précédente est continu, sans variation brusque de luminosité.**\n_Son : à 2:15 la densité rythmique double et les aigus montent nettement._\n  - [02:15 => 03:09] Premiers petits tunnels entre les braises.\n  - [03:09 => 04:08] Les tunnels se multiplient et accélèrent.\n  - [04:08 => 04:40] Le réseau est installé, le mouvement ralentit un peu avant la phase suivante.",
+   "fx": {
+    "palette": "lava",
+    "fx": [
+     {
+      "n": "Terre violette",
+      "level": 1.4,
+      "fadeStart": 125,
+      "fadeEnd": 160
+     },
+     {
+      "n": "Braises",
+      "mode": "steady",
+      "core": true,
+      "small": true,
+      "bassPulse": 0.85,
+      "dieFrom": 235.8,
+      "dieDur": 6
+     },
+     {
+      "n": "Tunnels de lave",
+      "dir": "up",
+      "more": true,
+      "snake": true,
+      "fronts": 44,
+      "glitchBoost": 0.6,
+      "t0": 135,
+      "t1": 250,
+      "centerFrom": 235.8,
+      "centerFade": 4,
+      "jerk": [
+       [
+        162,
+        175
+       ],
+       [
+        177,
+        181
+       ],
+       [
+        183,
+        189
+       ],
+       [
+        220,
+        247,
+        230
+       ]
+      ]
+     },
+     {
+      "n": "Battement",
+      "t0": 135,
+      "t1": 135,
+      "a0": 0.4,
+      "a1": 0.4,
+      "minS": 2,
+      "gap": 0.17,
+      "tau": 0.09,
+      "minW": 0.35,
+      "spread": 0.5
+     },
+     {
+      "n": "Halo violet",
+      "t0": 189.5,
+      "t1": 215.2,
+      "fadeIn": 7,
+      "fadeOut": 14,
+      "level": 1.44,
+      "tun0": 135,
+      "tun1": 250
+     },
+     {
+      "n": "Trou de lave",
+      "offUntil": 162,
+      "noteFrom": 196.6,
+      "noteTo": 220.3,
+      "noteZ": 1.8,
+      "keepHue": true
+     }
+    ]
+   },
+   "events": [
+    {
+     "dup": 1,
+     "k": "02:21",
+     "on": 140.85
+    },
+    {
+     "k": "02:21",
+     "name": "EvilPenta",
+     "on": 147.35,
+     "text": "EvilPenta : cri de corbeau, flash lumineux violet (30 % d'intensité) sur l'ensemble du dôme, calé sur l'attaque du cri dans le son (vers 2:27,4), qui s'efface au noir en environ 1,5 s. À chaque cri, la forme StarsA (anneau 1) a en plus un flash rouge très lumineux, très bref (environ 0,2 s), après lequel elle retrouve l'animation du reste. Cet event s'appelle EvilPenta dans la banque et « Evil » sur la timeline.",
+     "def": {
+      "at": 140.1,
+      "dur": 4.5,
+      "fx": [
+       {
+        "n": "Flash",
+        "hue": 280,
+        "sat": 0.9,
+        "level": 0.3,
+        "tau": 1.4
+       },
+       {
+        "n": "ListeFlash",
+        "list": "StarsA",
+        "ring": 1,
+        "hue": 0,
+        "sat": 1,
+        "level": 1,
+        "tau": 0.18
+       }
+      ]
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:21",
+     "on": 150.6
+    },
+    {
+     "dup": 1,
+     "k": "02:21",
+     "on": 153.9
+    },
+    {
+     "k": "02:36",
+     "name": "LavaSpeed",
+     "on": 156.9,
+     "span": 5.1,
+     "text": "LavaSpeed : de 2:36,9 à 2:42,0, la lave rush, accélère et emplit plus de chemins disponibles en montant vers le centre ; elle s'ajoute aux pulsations et aux autres effets sans les modifier ; elle arrive en fondu lent et repart en fondu assez rapide.",
+     "def": {
+      "at": 156.9,
+      "span": 5.1,
+      "dur": 6,
+      "fx": {
+       "n": "LavaSpeed",
+       "span": 5.1,
+       "out": 0.7
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:21",
+     "on": 157.1
+    },
+    {
+     "k": "02:40",
+     "name": "Ruée",
+     "on": 160.1,
+     "span": 1.7,
+     "text": "Ruée : de 2:40,1 à 2:41,8, mêmes pulsations et avancées de lave très rapides et très saccadées ; flash rouge à l'attaque.",
+     "def": {
+      "at": 160.1,
+      "span": 1.7,
+      "dur": 1.7,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "03:40",
+     "on": 160.95,
+     "span": 2.6
+    },
+    {
+     "k": "02:49",
+     "name": "Gerbes",
+     "on": 169.55,
+     "span": 2.6,
+     "text": "Gerbes : à 2:49,0, un seul jaillissement de lave (même animation que l'event Gerbes de 3:40,4, mais 1 seul jaillissement au lieu de 2), calé sur la poussée de basse la plus proche : dans chacun des trois tiers du dôme, la lave jaillit du bas jusqu'à une barre avant le sommet (sans toucher les barres du sommet) (base rouge vif, dégradé par l'orange, pointe jaune cadmium), pousse devant elle des étincelles jaune cadmium vif très lumineuses, puis retombe avec du poids ; les étincelles retombent lentement.",
+     "def": {
+      "at": 169.8,
+      "span": 2.6,
+      "dur": 3.4,
+      "fx": {
+       "n": "Gerbes",
+       "span": 2.6,
+       "count": 1
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 174.1,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "03:53",
+     "on": 175.5,
+     "span": 1.4
+    },
+    {
+     "dup": 1,
+     "k": "03:53",
+     "on": 175.75,
+     "span": 1.4
+    },
+    {
+     "k": "02:56",
+     "name": "Rien",
+     "on": 176.95,
+     "span": 0.5,
+     "text": "Rien : à 2:56,9, extinction totale du dôme (tout noir, environ 0,25 s) puis rallumage rapide ; event très court.",
+     "def": {
+      "at": 176.9,
+      "span": 0.5,
+      "dur": 0.8,
+      "fx": {
+       "n": "Noir",
+       "hold": 0.25,
+       "back": 0.2
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 182.2,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 182.6,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "03:07",
+     "on": 186.05,
+     "span": 2.3
+    },
+    {
+     "k": "03:07",
+     "name": "Ruée",
+     "on": 187,
+     "span": 2.3,
+     "text": "Ruée : de 3:07,0 à 3:09,3, les pulsations et les avancées de lave deviennent temporairement très rapides et très saccadées (la lumière descend au plus à environ 50 %, jamais jusqu'à l'extinction) ; flash rouge à l'attaque.",
+     "def": {
+      "at": 187,
+      "span": 2.3,
+      "dur": 2.3,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:21",
+     "on": 208.85
+    },
+    {
+     "k": "03:35",
+     "name": "LavaSpeed",
+     "on": 215.1,
+     "span": 4.9,
+     "text": "LavaSpeed : de 3:35,1 à 3:40,0, même effet (la lave rush, accélère et emplit plus de chemins en montant vers le centre), en fondu lent à l'entrée et assez rapide à la sortie.",
+     "def": {
+      "at": 215.1,
+      "span": 4.9,
+      "dur": 5.8,
+      "fx": {
+       "n": "LavaSpeed",
+       "span": 4.9,
+       "out": 0.7
+      }
+     }
+    },
+    {
+     "k": "03:38",
+     "name": "Ruée",
+     "on": 218.5,
+     "span": 2,
+     "text": "Ruée : de 3:38,5 à 3:40,5, mêmes pulsations et avancées de lave très rapides et très saccadées ; flash rouge à l'attaque.",
+     "def": {
+      "at": 218.5,
+      "span": 2,
+      "dur": 2,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "k": "03:40",
+     "name": "Gerbes",
+     "on": 220.4,
+     "span": 2.6,
+     "text": "Gerbes : à 3:40,4, 2 jaillissements de lave calés en rythme sur les poussées de dubstep (kicks forts, environ 0,8 s d'écart). À chaque jaillissement, dans chacun des trois tiers du dôme, la lave jaillit du bas jusqu'à une barre avant le sommet (sans toucher les barres du sommet) : base rouge vif, dégradé par l'orange, pointe jaune cadmium (jaune franc, chaud, sans reflet verdâtre). Elle pousse devant elle des étincelles jaune cadmium vif, très lumineuses (plus grosses). Chaque jaillissement monte en courbe douce (il ralentit en approchant du sommet) puis retombe avec un vrai poids (chute qui accélère, sans rebond) ; si le premier n'a pas fini de retomber quand le second part, le second repart de la hauteur atteinte. Les jaillissements laissent ensuite place à l'animation et aux couleurs de base de la timeline ; les étincelles retombent lentement.",
+     "def": {
+      "at": 220.4,
+      "span": 2.6,
+      "dur": 4.4,
+      "fx": {
+       "n": "Gerbes",
+       "span": 2.6,
+       "count": 2
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 222.1,
+     "span": 0.5
+    },
+    {
+     "k": "03:53",
+     "name": "Ruée",
+     "on": 233.7,
+     "span": 1.4,
+     "text": "Ruée : de 3:53,7 à 3:55,1, mêmes pulsations et avancées de lave très rapides et très saccadées ; flash rouge à l'attaque.",
+     "def": {
+      "at": 233.7,
+      "span": 1.4,
+      "dur": 1.4,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 234.9,
+     "span": 0.5
+    },
+    {
+     "k": "03:56",
+     "name": "Ruée",
+     "on": 236.6,
+     "span": 1.2,
+     "text": "Ruée : de 3:56,6 à 3:57,8, mêmes pulsations et avancées de lave très rapides et très saccadées ; flash rouge à l'attaque.",
+     "def": {
+      "at": 236.6,
+      "span": 1.2,
+      "dur": 1.2,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "k": "03:58",
+     "name": "Ruée",
+     "on": 238.1,
+     "span": 3.4,
+     "text": "Ruée : de 3:58,1 à 4:01,5, mêmes pulsations et avancées de lave très rapides et très saccadées ; flash rouge à l'attaque.",
+     "def": {
+      "at": 238.1,
+      "span": 3.4,
+      "dur": 3.4,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 240.65,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 241.7,
+     "span": 0.5
+    },
+    {
+     "k": "04:03",
+     "name": "Ruée",
+     "on": 243.1,
+     "span": 4.7,
+     "text": "Ruée : de 4:03,1 à 4:07,8, mêmes pulsations et avancées de lave très rapides et très saccadées ; flash rouge à l'attaque.",
+     "def": {
+      "at": 243.1,
+      "span": 4.7,
+      "dur": 4.7,
+      "rush": 1,
+      "fx": {
+       "n": "Flash",
+       "hue": 0,
+       "sat": 1,
+       "level": 0.5,
+       "tau": 0.3
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "04:03",
+     "on": 244.6,
+     "span": 4.7
+    },
+    {
+     "k": "04:08",
+     "name": "Vibration",
+     "on": 248,
+     "span": 9.55,
+     "text": "Vibration : calée sur les basses vibrantes et longues (de 4:08,0 à environ 4:17,6), le dôme vibre en luminosité (petits flashs très très rapides) et la couleur globale vire au rouge jusqu'à la fin de l'effet.",
+     "def": {
+      "at": 248,
+      "span": 11.4,
+      "dur": 11.4,
+      "fx": {
+       "n": "Vibration",
+       "hz": 18,
+       "amp": 0.4
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "02:21",
+     "on": 269.3
+    },
+    {
+     "k": "04:30",
+     "name": "LavaSpeed",
+     "on": 270.8,
+     "span": 9,
+     "text": "LavaSpeed : de 4:30,8 à 4:39,8, même effet (la lave rush, accélère et emplit plus de chemins en montant vers le centre), mais en vraie MONTÉE EN PUISSANCE : rien au début, de plus en plus de chemins qui s'allument et de plus en plus lumineux jusqu'à la pleine puissance à 4:39,8 ; teintes jaune-ambre pour rester lisibles sur le rouge de la phase ; fondu de sortie assez rapide.",
+     "def": {
+      "at": 270.8,
+      "span": 9,
+      "dur": 9.8,
+      "fx": {
+       "n": "LavaSpeed",
+       "span": 9,
+       "out": 0.7,
+       "level": 1.2,
+       "fill": 0.5,
+       "startFrac": 0.75,
+       "runFrac": 0.4,
+       "inFrac": 1,
+       "inPow": 1.2,
+       "h0": 54,
+       "h1": 30
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "03:58",
+     "on": 277.35,
+     "span": 3.4
+    }
+   ]
+  },
+  {
+   "id": "p00280",
+   "version": 1,
+   "hash": "1zd4104m09g",
+   "start": 280,
+   "end": 345,
+   "title": "La lave émerge en bouillonnant, lente et rampante",
+   "descriptif": "[04:40 => 05:45] La lave émerge en bouillonnant, lente et rampante\nLa lave commence à émerger en bouillonnant. Parfois elle rampe et fait fondre les pierres sur son passage. Elle monte, envahit, bouillonne : phase assez lente.\n**▸ Pulsation**\n**• Pulsation lente rouge puis orange qui part du bord du dôme (le bas) et gagne vers le centre (le haut) ; braises et tunnels restent allumés.**\n**▸ Couleurs**\n**• La dominante bascule graduellement du rouge vers l'orange pendant tout le début de la phase (jusqu'à environ 5:40).**\n**▸ Jaillissements**\n**• Chaque raclement du dubstep (le beat est ignoré pour cet effet) déclenche un jaillissement : un front de lave jaune-blanc monte du bord vers le centre, comme celui de 4:41, avec une courte traînée orange.**\n**• Les autres lumières de la phase (braises, tunnels, pulsation) ne réagissent plus aux coups du beat : elles sont lissées pour que seuls les jaillissements rythment la phase.**\n_Son : le son se resserre (moins d'aigus, rythme plus aéré), énergie assez basse._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady",
+      "core": true,
+      "small": true,
+      "slow": true
+     },
+     {
+      "n": "Tunnels de lave",
+      "t0": 135,
+      "t1": 250,
+      "slow": true
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "ember",
+      "level": 0.55,
+      "slow": true
+     },
+     {
+      "n": "Jaillissement de lave",
+      "gut": {
+       "from": 283,
+       "to": 345,
+       "thr": 2.2,
+       "gap": 0.25
+      },
+      "rise": 0.55,
+      "tail": 0.4,
+      "amp": 0.65
+     }
+    ]
+   },
+   "events": [
+    {
+     "k": "04:40",
+     "name": "PentaCircle",
+     "on": 280.1,
+     "span": 1.35,
+     "text": "PentaCircle : de 4:40,1 à 4:41,5 (1,35 s), les éléments de la liste Pentas (les 6 pentagones) s'illuminent circulairement en violet tirant un peu vers le rouge (violet-magenta) et un peu plus lumineux, en fondu doux sans glitch : la lumière glisse d'un élément à l'autre autour du dôme (3 tours), avec une attaque rapide devant et une traînée douce derrière ; luminosité maximale réduite à environ 80 % ; démarrage rapide puis amorti (la rotation ralentit jusqu'à la fin).",
+     "def": {
+      "at": 280.1,
+      "span": 3.5,
+      "dur": 3.8,
+      "fx": {
+       "n": "GeoCircle",
+       "lists": [
+        "Pentas"
+       ],
+       "laps": 3,
+       "span": 3.5,
+       "hue": 290,
+       "sat": 0.8,
+       "fade": true,
+       "peak": 0.95
+      }
+     }
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadeMinus",
+     "on": 280.4,
+     "span": 0.8
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadePlus",
+     "on": 281.2,
+     "span": 2
+    },
+    {
+     "k": "04:41",
+     "name": "Jaillissement",
+     "on": 281.45,
+     "text": "Jaillissement : la lave a un sursaut, un jaillissement",
+     "def": {
+      "dur": 5,
+      "fx": {
+       "n": "Jaillissement de lave",
+       "rise": 1.5,
+       "tail": 3.2
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "05:27",
+     "on": 286.65,
+     "span": 1.4
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 287.8,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "05:27",
+     "on": 292.55,
+     "span": 1.4
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 293.6,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "05:27",
+     "on": 298.55,
+     "span": 1.25
+    },
+    {
+     "dup": 1,
+     "k": "04:40",
+     "on": 299.1,
+     "span": 1.35
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 299.65,
+     "span": 0.2
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadeMinus",
+     "on": 303.95,
+     "span": 0.8
+    },
+    {
+     "k": "05:04",
+     "name": "LineAPulse",
+     "on": 304.85,
+     "span": 1.55,
+     "text": "LineAPulse : de 5:04,9 à 5:06,4 (1,55 s), toutes les lignes de la liste LinesA (les 5 lignes droites partant du centre du dôme) ainsi que la liste Circles, anneau 4 (cercle extérieur), s'allument, chaque barre activée étant entourée d'un halo doux (les LEDs voisines s'allument en dégradé, à environ 45 % de l'intensité), en une demi-seconde, restent allumées une seconde, puis s'éteignent en deux glitchs juste après (deux coupures rapides, puis extinction) ; le dernier glitch illumine environ 80 % du dôme (en plus des lignes) avant l'extinction. Blanc par défaut.",
+     "def": {
+      "at": 304,
+      "span": 1.8,
+      "dur": 2.1,
+      "fx": {
+       "n": "GeoPulse",
+       "lists": [
+        "LinesA"
+       ],
+       "extra": [
+        {
+         "list": "Circles",
+         "ring": 4
+        }
+       ],
+       "halo": 10,
+       "rise": 0.5,
+       "hold": 1,
+       "flash": 0.8,
+       "span": 1.8
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "05:04",
+     "on": 308.1,
+     "span": 0.4
+    },
+    {
+     "dup": 1,
+     "k": "04:30",
+     "on": 308.5,
+     "span": 2.5
+    },
+    {
+     "dup": 1,
+     "k": "05:04",
+     "on": 311.05,
+     "span": 2.15
+    },
+    {
+     "dup": 1,
+     "k": "05:04",
+     "on": 314,
+     "span": 0.85
+    },
+    {
+     "dup": 1,
+     "k": "04:40",
+     "on": 315.5,
+     "span": 1.15
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadeMinus",
+     "on": 316.65,
+     "span": 0.8
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 316.7,
+     "span": 0.2
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadePlus",
+     "on": 316.95,
+     "span": 0.5
+    },
+    {
+     "dup": 1,
+     "k": "05:27",
+     "on": 321.45,
+     "span": 1.7
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 322.85,
+     "span": 0.3
+    },
+    {
+     "k": "05:27",
+     "name": "GerbeEtincelles",
+     "on": 327.35,
+     "span": 1.7,
+     "text": "GerbeEtincelles : à 5:27,4 (1,7 s), des étincelles blanches aléatoires (environ 60) s'ajoutent par-dessus les autres animations : elles partent du haut du dôme et descendent vers le bas en lignes droites, chacune avec une traînée qui grésille (scintillement rapide) ; elles accélèrent en tombant, puis s'éteignent rapidement (fondu de sortie de 0,35 s).",
+     "def": {
+      "at": 327.6,
+      "span": 2.5,
+      "dur": 2.7,
+      "fx": {
+       "n": "GerbeEtincelles",
+       "sparks": 60,
+       "span": 2.5
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "04:08",
+     "on": 328.05,
+     "span": 0.6
+    },
+    {
+     "dup": 1,
+     "k": "04:08",
+     "on": 330,
+     "span": 0.7
+    },
+    {
+     "dup": 1,
+     "k": "02:56",
+     "on": 332.8,
+     "span": 0.2
+    },
+    {
+     "dup": 1,
+     "k": "05:27",
+     "on": 333,
+     "span": 1.7
+    },
+    {
+     "dup": 1,
+     "k": "04:08",
+     "on": 337.15,
+     "span": 0.6
+    },
+    {
+     "dup": 1,
+     "k": "04:08",
+     "on": 338.05,
+     "span": 0.9
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadeMinus",
+     "on": 339.3,
+     "span": 3.6
+    },
+    {
+     "lib": 1,
+     "k": "lib:FadePlus",
+     "on": 344.45,
+     "span": 0.5
+    }
+   ]
+  },
+  {
+   "id": "p00345",
+   "version": 1,
+   "hash": "1s1ti4uh524",
+   "start": 345,
+   "end": 432,
+   "title": "Remontée rapide : la lave envahit conduits et bassins",
+   "descriptif": "[05:45 => 07:12] Remontée rapide : la lave envahit conduits et bassins\nLa lave remonte bien plus rapidement. Elle envahit les conduits souterrains, les tunnels, les bassins du volcan.\n**Tous les tunnels s'embrasent ensemble, pulsations orange vif calées sur les graves ; la lave remonte du bas vers le haut du dôme (du bord vers le centre), plus vite qu'avant.**\n**• Rythme (recalé sur l'analyse du son) : les pulsations suivent plus nettement la batterie (kicks), avec un léger battement général sur les gros kicks.**\n_Son : les graves reviennent fort, les aigus et la densité rythmique remontent._",
+   "fx": {
+    "palette": "lava",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady",
+      "core": true,
+      "small": true
+     },
+     {
+      "n": "Tunnels de lave",
+      "dir": "up",
+      "t0": 0,
+      "t1": 1
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "lava",
+      "level": 0.85,
+      "beat": 0.6
+     },
+     {
+      "n": "Battement",
+      "t0": 345,
+      "t1": 432,
+      "a0": 0.08,
+      "a1": 0.12,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p00432",
+   "version": 1,
+   "hash": "1xmsamgdfc2",
+   "start": 432,
+   "end": 484,
+   "title": "Ruée : la pression se prépare",
+   "descriptif": "[07:12 => 08:04] Ruée : la pression se prépare\nLa lave continue de remplir les conduits, la pression se prépare.\n**Même réseau de tunnels ; la lave remonte du bas vers le haut du dôme. Les graves disparaissent dès 7:12 : la luminosité retombe, puis elle ne suit plus les graves mais la batterie et les synthés, qui se densifient et la font monter jusqu'à un bref creux vers 7:56 ; le retour des graves à 8:00 donne un nouvel éclat.**\n**• Rythme : pulsations calées sur batterie et synthés (pas sur les graves, absents ici), plus marquées que avant ; léger battement général sur les gros kicks.**\n_Son : les graves disparaissent dès 7:12 et ne reviennent qu'à 8:00 ; entre-temps la batterie se densifie (de plus en plus forte jusqu'à 7:52) et les synthés montent, avec un bref creux vers 7:56._",
+   "fx": {
+    "palette": "lava",
+    "fx": [
+     {
+      "n": "Tunnels de lave",
+      "dir": "up",
+      "t0": 0,
+      "t1": 1
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "lava",
+      "level": 0.9,
+      "beat": 0.7,
+      "src": "drums+other"
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 0.4
+     },
+     {
+      "n": "Battement",
+      "t0": 432,
+      "t1": 484,
+      "a0": 0.12,
+      "a1": 0.16,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": [
+    {
+     "k": "07:47",
+     "name": "SlowLava",
+     "on": 467.25,
+     "span": 7.85,
+     "text": "SlowLava : de 7:47,3 à 7:55,2 (7,85 s), montée en puissance de lave. Des canaux de lave partent du dernier cercle du dôme (les moyeux les plus extérieurs) les uns après les autres : un canal monte, puis deux, puis trois, etc. (départs étalés sur les 5 premières secondes, dans un ordre pseudo-aléatoire). Chaque canal monte à vitesse constante, un peu différente de celle des autres (5,3 à 6,3 s pour atteindre le sommet), et rien de ce qu'il a touché ne s'éteint, et sa tête est blanche et reste la partie la plus lumineuse du canal tant qu'il progresse (sans pulser) ; les canaux suivants empruntent les barres encore vides, de sorte que les canaux accumulés finissent par remplir tout le dôme au bout d'environ 8,5 secondes (si l'event est plus court, il retombe avant d'être rempli). Couleur selon la hauteur : rouge bien lumineux en bas, puis orange et jaune plus haut ; le blanc s'accumule en haut : à mesure que des canaux arrivent au sommet, une calotte blanche grandit depuis le haut du dôme (jusqu'à environ 40 % de la hauteur). Au-delà de 8,5 secondes, cette calotte se répand du sommet vers le bas, de plus en plus vite, uniquement sur les barres qui sont des canaux de lave (jamais sur une barre vide), puis gagne tout le dôme : blanc pur (sans aucune teinte) partout à la fin de l'event. Tout pulse sur les kicks : nettement dès le début, de plus en plus fort au fil de l'event, et encore plus fort sur ce qui est blanc. À la fin de l'event, tout retombe vers le bas en environ 2,5 secondes : chaque canal recule à sa propre vitesse (pas tous en même temps) et le haut s'éteint en premier ; le noir « Rien » qui précède le SlowLava suivant n'éteint pas cette retombée. Pendant toute la durée de l'event, retombée comprise, aucune autre animation que SlowLava n'est visible, sauf les events TriGlitch et Éruption qui prévalent sur SlowLava (ils s'affichent par-dessus).",
+     "def": {
+      "at": 467.3,
+      "span": 8.4,
+      "dur": 11.2,
+      "fx": {
+       "n": "SlowLava",
+       "span": 8.4
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "10:23",
+     "on": 475.6,
+     "span": 1.5
+    },
+    {
+     "dup": 1,
+     "k": "10:23",
+     "on": 476.8,
+     "span": 1.5
+    },
+    {
+     "k": "07:57",
+     "name": "Rien",
+     "on": 477.5,
+     "span": 1,
+     "text": "Rien : à 7:57,5, extinction totale du dôme une seconde avant le SlowLava de 7:58,5 ; aucune autre animation que SlowLava n'est visible tant que ce SlowLava n'est pas terminé (retombée comprise), puis les animations de la phase reviennent.",
+     "def": {
+      "at": 477.5,
+      "span": 1,
+      "dur": 1.3,
+      "fx": {
+       "n": "Noir",
+       "keepSlow": true,
+       "hold": 0.95,
+       "back": 0.05
+      }
+     }
+    },
+    {
+     "k": "07:58",
+     "name": "SlowLava",
+     "on": 478.5,
+     "span": 20.8,
+     "text": "SlowLava : de 7:58,5 à 8:19,3 (20,8 s), même effet que le SlowLava de 7:47,3 (montée en puissance de lave : canaux partis du dernier cercle, têtes blanches, couleur selon la hauteur, calotte blanche qui grandit jusqu'au blanc pur, pulsations sur les kicks, retombée vers le bas en 2,5 s ; seuls TriGlitch et Éruption s'affichent par-dessus).",
+     "def": {
+      "at": 478.5,
+      "span": 20.8,
+      "dur": 23.6,
+      "fx": {
+       "n": "SlowLava",
+       "span": 20.8
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p00484",
+   "version": 1,
+   "hash": "amu5of2gaj",
+   "start": 484,
+   "end": 545,
+   "title": "Fuite vers la surface, geysers et première fumée",
+   "descriptif": "[08:04 => 09:05] Fuite vers la surface, geysers et première fumée\nLa lave fuse vers la surface à toute vitesse, émergeant par endroits, déclenchant des geysers. De la fumée commence à sortir du volcan.\n**Gerbes jaune-orange qui montent du bord vers le centre sur les attaques rythmiques (geysers) ; lueur grise-rouge faible vers le haut du dôme pour la fumée.**\n**• Rythme : pulsations calées sur la batterie ; léger battement général sur les gros kicks. À 8:20,4, un event Gerbes (2 jaillissements) souligne les geysers. Les étincelles sont retirées de cette phase ; des montées de lave lentes (event SlowLava) traversent le début de la phase (7:58,5 à 8:19,3).**\n_Son : densité rythmique en hausse constante jusqu'à 9:00, aigus plus présents._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "fire",
+      "level": 0.9,
+      "beat": 0.8,
+      "src": "drums"
+     },
+     {
+      "n": "Battement",
+      "t0": 484,
+      "t1": 545,
+      "a0": 0.14,
+      "a1": 0.18,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": [
+    {
+     "dup": 1,
+     "k": "10:23",
+     "on": 499.2,
+     "span": 1.5
+    },
+    {
+     "k": "08:41",
+     "name": "Gerbes",
+     "on": 500.4,
+     "span": 2.6,
+     "text": "Gerbes : à 8:20,4, 2 jaillissements de lave calés sur les poussées de basse (geysers de la phase) : dans chacun des trois tiers du dôme, la lave jaillit du bas jusqu'à une barre avant le sommet, avec ses étincelles qui retombent lentement ; même animation que l'event Gerbes de 3:40,4.",
+     "def": {
+      "at": 521.1,
+      "span": 2.6,
+      "dur": 4.4,
+      "fx": {
+       "n": "Gerbes",
+       "span": 2.6,
+       "count": 2
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "10:25",
+     "on": 500.9,
+     "span": 9.6
+    },
+    {
+     "dup": 1,
+     "k": "10:23",
+     "on": 510.3,
+     "span": 1.6
+    }
+   ]
+  },
+  {
+   "id": "p00545",
+   "version": 1,
+   "hash": "16x18iooe3c",
+   "start": 545,
+   "end": 610,
+   "title": "Bassin : la lave s'arrête et la pression monte",
+   "descriptif": "[09:05 => 10:10] Bassin : la lave s'arrête et la pression monte\nLa lave s'arrête pour remplir un bassin. La pression monte de plus en plus.\n**Pulsation rouge sombre profonde qui gonfle, braises rallumées ; la tension monte avant l'éruption.**\n**• Rythme : les pulsations suivent de plus en plus la batterie ; le battement général sur les gros kicks, très discret au début, se renforce jusqu'à 10:10 (la pression monte). À 10:09,5, un noir total (jusqu'à 10:10,2) précède l'éruption, puis l'event Éruption éclate.**\n_Son : coupure brève à 9:05 (le son tombe), puis remontée progressive._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady"
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "ember",
+      "level": 0.6,
+      "beat": 0.5,
+      "src": "drums+other"
+     },
+     {
+      "n": "Battement",
+      "t0": 545,
+      "t1": 610,
+      "a0": 0.05,
+      "a1": 0.22,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": [
+    {
+     "k": "09:14",
+     "name": "Rien",
+     "on": 554.7,
+     "span": 1,
+     "text": "Rien : à 9:14,7, extinction totale du dôme une seconde avant le SlowLava de 9:15,7 ; aucune autre animation que SlowLava n'est visible tant que ce SlowLava n'est pas terminé (retombée comprise), puis les animations de la phase reviennent.",
+     "def": {
+      "at": 554.7,
+      "span": 1,
+      "dur": 1.3,
+      "fx": {
+       "n": "Noir",
+       "keepSlow": true,
+       "hold": 0.95,
+       "back": 0.05
+      }
+     }
+    },
+    {
+     "k": "09:15",
+     "name": "SlowLava",
+     "on": 555.7,
+     "span": 10.7,
+     "text": "SlowLava : de 9:15,7 à 9:26,4 (10,7 s), même effet que le SlowLava de 7:47,3 (montée en puissance de lave : canaux partis du dernier cercle, têtes blanches, couleur selon la hauteur, calotte blanche qui grandit jusqu'au blanc pur, pulsations sur les kicks, retombée vers le bas en 2,5 s ; seuls TriGlitch et Éruption s'affichent par-dessus).",
+     "def": {
+      "at": 555.7,
+      "span": 10.7,
+      "dur": 13.5,
+      "fx": {
+       "n": "SlowLava",
+       "span": 10.7
+      }
+     }
+    },
+    {
+     "k": "09:26",
+     "name": "Rien",
+     "on": 566.7,
+     "span": 0.5,
+     "text": "Rien : à 9:26,7, extinction totale du dôme pendant une demi-seconde, jusqu'au début du SlowLava de 9:27,2 ; aucune autre animation que SlowLava n'est visible tant que ce SlowLava n'est pas terminé (retombée comprise), puis les animations de la phase reviennent.",
+     "def": {
+      "at": 566.7,
+      "span": 0.5,
+      "dur": 0.8,
+      "fx": {
+       "n": "Noir",
+       "keepSlow": true,
+       "hold": 0.45,
+       "back": 0.05
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "10:23",
+     "on": 566.7,
+     "span": 1.5
+    },
+    {
+     "k": "09:27",
+     "name": "SlowLava",
+     "on": 567.2,
+     "span": 21.3,
+     "text": "SlowLava : de 9:27,2 à 9:48,5 (21,3 s), même effet que le SlowLava de 7:47,3 (montée en puissance de lave : canaux partis du dernier cercle, têtes blanches, couleur selon la hauteur, calotte blanche qui grandit jusqu'au blanc pur, pulsations sur les kicks, retombée vers le bas en 2,5 s ; seuls TriGlitch et Éruption s'affichent par-dessus).",
+     "def": {
+      "at": 567.2,
+      "span": 21.3,
+      "dur": 24.1,
+      "fx": {
+       "n": "SlowLava",
+       "span": 21.3
+      }
+     }
+    },
+    {
+     "k": "09:49",
+     "name": "Rien",
+     "on": 589.5,
+     "span": 0.9,
+     "text": "Rien : à 9:49,5, extinction totale du dôme pendant 0,9 s, jusqu'au début du SlowLava de 9:50,4 ; aucune autre animation que SlowLava n'est visible tant que ce SlowLava n'est pas terminé (retombée comprise), puis les animations de la phase reviennent.",
+     "def": {
+      "at": 589.5,
+      "span": 0.9,
+      "dur": 1.2,
+      "fx": {
+       "n": "Noir",
+       "keepSlow": true,
+       "hold": 0.85,
+       "back": 0.05
+      }
+     }
+    },
+    {
+     "k": "09:50",
+     "name": "SlowLava",
+     "on": 590.4,
+     "span": 19,
+     "text": "SlowLava : de 9:50,4 à 10:09,4 (19,0 s), même effet que le SlowLava de 7:47,3 (montée en puissance de lave : canaux partis du dernier cercle, têtes blanches, couleur selon la hauteur, calotte blanche qui grandit jusqu'au blanc pur, pulsations sur les kicks, retombée vers le bas en 2,5 s ; seuls TriGlitch et Éruption s'affichent par-dessus).",
+     "def": {
+      "at": 590.4,
+      "span": 19,
+      "dur": 21.8,
+      "fx": {
+       "n": "SlowLava",
+       "span": 19
+      }
+     }
+    },
+    {
+     "k": "10:09",
+     "name": "Rien",
+     "on": 609.55,
+     "span": 0.7,
+     "text": "Rien : à 10:09,5, extinction totale du dôme (tout noir) qui dure jusqu'à l'event Éruption (10:10,2) : le noir est coupé net par l'explosion ; rallumage dès le début de l'Éruption.",
+     "def": {
+      "at": 609.55,
+      "span": 0.7,
+      "dur": 1,
+      "fx": {
+       "n": "Noir",
+       "hold": 0.6,
+       "back": 0.05
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p00610",
+   "version": 1,
+   "hash": "wn8c06owry",
+   "start": 610,
+   "end": 624,
+   "title": "Éruption : le volcan explose",
+   "descriptif": "[10:10 => 10:24] Éruption : le volcan explose\nÉnorme éruption du volcan, du bas du dôme vers le haut, puis par explosions successives du haut du dôme.\n**Un front jaune-blanc monte du bord vers le centre ; puis explosions successives depuis le centre. La lumière est portée par le mur de synthés (batterie et basse coupées net) et non par les kicks : ils ne rythment l'effet que dans leur courte reprise vers 10:16–10:20.**\n**• Comètes : à partir de 10:17,5 (dans le prolongement de la finale de l'event Éruption), des comètes rouges partent en continu du centre du dôme vers l'extérieur en lignes droites (sans suivre les barres) et retombent pendant plusieurs secondes vers le bas ; elles continuent jusqu'à la fin de la phase suivante (11:10).**\n_Son : à 10:10 la batterie et la basse coupent net et un mur de synthés très fort (le plus fort de la zone) porte l'éruption ; kicks et basse reviennent brièvement vers 10:16–10:20, puis coupent de nouveau vers 10:22._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Jaillissement de lave",
+      "t0": 610,
+      "rise": 1.2,
+      "tail": 2.5
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "fire",
+      "level": 1,
+      "beat": 0.35,
+      "src": "other"
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 1
+     },
+     {
+      "n": "Comètes",
+      "t0": 617.5,
+      "t1": 670,
+      "rate": 1.6
+     }
+    ]
+   },
+   "events": [
+    {
+     "k": "10:10",
+     "name": "Éruption",
+     "on": 610.2,
+     "span": 3.6,
+     "text": "Éruption : à 10:10,2, explosion du volcan : flash sur tout le dôme, grand jaillissement de lave du bord vers le sommet, puis 3 gerbes successives calées sur les poussées de basse dont les étincelles retombent lentement. À chaque montée de lave (au début puis à chaque gerbe), une volée d'étincelles crépitantes jaillit de bas en haut (environ 45 étincelles qui montent chacune à une hauteur au hasard, puis restent sur place en crépitant 2 à 3 s avant de disparaître). Elle se termine (à partir de 10:13,6, pendant environ 4 s) par une phase AVEUGLANTE : les triangles du haut du dôme clignotent et vibrent en alternance orange / presque blanc (parfois), pendant que des comètes rouges partent du centre du dôme vers l'extérieur en lignes droites (sans suivre les barres) et retombent pendant plusieurs secondes vers le bas du dôme, avec une traîne.",
+     "def": {
+      "at": 610.2,
+      "span": 3.6,
+      "dur": 13.5,
+      "fx": [
+       {
+        "n": "Jaillissement de lave",
+        "rise": 1.4,
+        "tail": 3.2
+       },
+       {
+        "n": "Flash",
+        "hue": 24,
+        "sat": 0.5,
+        "level": 0.5,
+        "tau": 0.7
+       },
+       {
+        "n": "Gerbes",
+        "span": 3.6,
+        "count": 3
+       },
+       {
+        "n": "Volée",
+        "count": 3,
+        "sparks": 45
+       },
+       {
+        "n": "Aveuglement",
+        "delay": 3.4,
+        "dur": 4,
+        "rate": 10,
+        "comets": 20
+       }
+      ]
+     }
+    },
+    {
+     "k": "10:23",
+     "name": "TriGlitch",
+     "on": 623.8,
+     "span": 1.5,
+     "text": "TriGlitch : de 10:23,8 à 10:25,3 (1,5 s), calé en rythme sur les notes de synthé/guitare de la piste Aigus : à chaque note, quelques triangles pris au hasard (de 2 à 6 selon la force de la note) s'allument en blanc, clignotent en glitch et s'éteignent en un quart de seconde.",
+     "def": {
+      "at": 623.8,
+      "span": 1.5,
+      "dur": 1.8,
+      "fx": {
+       "n": "TriGlitch",
+       "span": 1.5,
+       "noteZ": 1.5
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p00624",
+   "version": 1,
+   "hash": "knfhvt3iwm",
+   "start": 624,
+   "end": 670,
+   "title": "Grandes explosions, geysers et fumée du cratère",
+   "descriptif": "[10:24 => 11:10] Grandes explosions, geysers et fumée du cratère\nL'explosion monte en intensité. Grandes explosions de lave et grands geysers jaillissent du cratère en même temps que de la fumée.\n**Grandes explosions jaune-orange qui partent du bord (le cratère, en bas) vers le centre, avec des retombées du centre vers l'extérieur ; flashs sur les kicks ; fumée gris-rouge.**\n**• Comètes : les comètes rouges (lignes droites du centre vers l'extérieur, qui retombent pendant plusieurs secondes) continuent jusqu'à la fin de la phase, 11:10.**\n**• Rythme : pulsations calées sur batterie et synthés ; léger battement général sur les gros kicks. À 10:54,3, un event Gerbes à 1 jaillissement ponctue les grandes explosions.**\n_Son : densité rythmique maximale, graves puissants jusqu'à 11:00._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "fire",
+      "level": 1,
+      "beat": 0.6,
+      "src": "drums+other"
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 1
+     },
+     {
+      "n": "Battement",
+      "t0": 624,
+      "t1": 670,
+      "a0": 0.12,
+      "a1": 0.16,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     },
+     {
+      "n": "Comètes",
+      "t0": 617.5,
+      "t1": 670,
+      "rate": 1.6
+     }
+    ]
+   },
+   "events": [
+    {
+     "k": "10:25",
+     "name": "CrossGlitch",
+     "on": 625.7,
+     "span": 9.6,
+     "text": "CrossGlitch : de 10:25,7 à 10:35,3 (9,6 s), les éléments (géos) des listes Cross (CrossA et CrossB, les flocons aux moyeux) s'allument en blanc au hasard, calés sur les kicks : à chaque kick (fort ou moyen), 2 flocons seulement sont allumés pendant environ 0,2 s, avec un léger clignotement (très peu de croix allumées en même temps).",
+     "def": {
+      "at": 625.7,
+      "span": 9.6,
+      "dur": 9.9,
+      "fx": {
+       "n": "GeoGlitch",
+       "lists": [
+        "CrossA",
+        "CrossB"
+       ],
+       "count": 2,
+       "life": 0.2,
+       "minS": 2,
+       "span": 9.6
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "10:25",
+     "on": 636.8,
+     "span": 9.6
+    },
+    {
+     "k": "10:40",
+     "name": "SlowLavaBlanc",
+     "on": 640.9,
+     "span": 4,
+     "text": "SlowLavaBlanc : de 10:40,9 à 10:44,9 (4,0 s), canaux de lave ENTIÈREMENT BLANCS dès leur départ, par-dessus le reste (les autres animations restent visibles, contrairement au SlowLava normal) : comme SlowLava, des canaux partent du dernier cercle du dôme les uns après les autres, à des vitesses un peu différentes, et rien de ce qu'ils ont touché ne s'éteint jusqu'à la fin ; ils pulsent sur les kicks plus fort que ceux d'un SlowLava normal ; même montée lente que SlowLava, avec une tête de canal plus lumineuse que le corps (le dôme ne serait rempli qu'au bout d'environ 8,5 secondes, donc l'event court retombe avant) ; à la fin de l'event, tout retombe vers le bas en environ 2,5 secondes, chaque canal à sa propre vitesse.",
+     "def": {
+      "at": 640.9,
+      "span": 4,
+      "dur": 6.8,
+      "fx": {
+       "n": "SlowLava",
+       "span": 4,
+       "white": true,
+       "overlay": true
+      }
+     }
+    },
+    {
+     "k": "10:51",
+     "name": "Gerbes",
+     "on": 654.25,
+     "span": 2.6,
+     "text": "Gerbes : à 10:54,3, un seul jaillissement de lave (même animation que l'event Gerbes de 3:40,4) calé sur la poussée de basse, au milieu des grandes explosions.",
+     "def": {
+      "at": 651,
+      "span": 2.6,
+      "dur": 3.4,
+      "fx": {
+       "n": "Gerbes",
+       "span": 2.6,
+       "count": 1
+      }
+     }
+    },
+    {
+     "k": "11:04",
+     "name": "SlowLavaBlanc",
+     "on": 664.4,
+     "span": 2.5,
+     "text": "SlowLavaBlanc : de 11:04,4 à 11:06,9 (2,5 s), même effet que le SlowLavaBlanc de 10:40,9 (canaux de lave entièrement blancs par-dessus le reste, retombée vers le bas en 2,5 s).",
+     "def": {
+      "at": 664.4,
+      "span": 2.5,
+      "dur": 5.3,
+      "fx": {
+       "n": "SlowLava",
+       "span": 2.5,
+       "white": true,
+       "overlay": true
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p00670",
+   "version": 1,
+   "hash": "168tp79fiwg",
+   "start": 670,
+   "end": 801,
+   "title": "Recul sur la montagne : majesté calme, éclairs",
+   "descriptif": "[11:10 => 13:21] Recul sur la montagne : majesté calme, éclairs\nPhase calme : on prend du recul pour contempler la majesté de la montagne, grandiose mais assez calme vue de loin. Des éclairs strient parfois le ciel.\n**Lueurs lentes rouge sombre et orange avec quelques touches de couleur inhabituelles (violet, rose) ; éclairs blancs-bleutés ponctuels sur les aigus.**\n_Son : retombée, moins dense (surtout 11:30–12:00)._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "pal": "lava",
+      "level": 0.35
+     },
+     {
+      "n": "Éclairs",
+      "rate": 0.4
+     },
+     {
+      "n": "Étincelles",
+      "pal": "violet",
+      "amount": 0.25
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p00801",
+   "version": 1,
+   "hash": "1b9woikkf7r",
+   "start": 801,
+   "end": 909,
+   "title": "Coulées rapides du sommet vers la base",
+   "descriptif": "[13:21 => 15:09] Coulées rapides du sommet vers la base\nPhase rapide : la coulée de lave déferle depuis le haut du volcan vers le bas. Parfois uniformément, comme des vagues de lave ; parfois par coulées nombreuses qui serpentent.\n**Coulées du haut vers le bas du dôme : tantôt vagues uniformes sur tout le dôme, tantôt coulées nombreuses qui serpentent du centre vers le bord ; rouge, orange, jaune sur le rythme.**\n**• Adouci : les coulées uniformes avancent à vitesse constante en vagues larges et lisses (plus de flashs) ; les coulées serpentantes et les étincelles restent.**\n_Son : creux court vers 13:15–13:45, puis le rythme repart, dense, jusqu'à 15:00._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Coulées",
+      "mode": "both",
+      "level": 0.9,
+      "soft": 1,
+      "slow": true
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 0.35
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p00909",
+   "version": 1,
+   "hash": "pj0kb2khbw",
+   "start": 909,
+   "end": 940,
+   "title": "Majesté calme : lueur sombre, presque noire",
+   "descriptif": "[15:09 => 15:40] Majesté calme : lueur sombre, presque noire\nPhase calme : recul sur la montagne.\n**Lueur rouge sombre, presque noir ; un éclair éventuel.**\n_Son : le creux le plus marqué (vers 15:15), énergie minimale._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "pal": "lava",
+      "level": 0.3
+     },
+     {
+      "n": "Éclairs",
+      "rate": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p00940",
+   "version": 1,
+   "hash": "p0hy9inc53",
+   "start": 940,
+   "end": 1007,
+   "title": "Coulées rapides : la lave déferle à nouveau",
+   "descriptif": "[15:40 => 16:47] Coulées rapides : la lave déferle à nouveau\nPhase rapide : la lave déferle à nouveau du haut vers le bas.\n**Coulées du haut vers le bas, comme en 13:21.**\n**• Rythme : très léger battement général sur les gros kicks.**\n_Son : remontée franche à partir de 15:45, rythme dense._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Coulées",
+      "mode": "both",
+      "level": 1
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 0.3
+     },
+     {
+      "n": "Battement",
+      "t0": 940,
+      "t1": 1007,
+      "a0": 0.1,
+      "a1": 0.1,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01007",
+   "version": 1,
+   "hash": "h5alwb7ryt",
+   "start": 1007,
+   "end": 1040,
+   "title": "Calme avant que la croûte ne se brise",
+   "descriptif": "[16:47 => 17:20] Calme avant que la croûte ne se brise\nPhase calme avant que la croûte ne se brise.\n**Lueur calme et sombre ; la lumière se retire.**\n_Son : les graves s'effacent, le son devient aérien._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "pal": "ember",
+      "level": 0.3
+     },
+     {
+      "n": "Éclairs",
+      "rate": 0.4
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01040",
+   "version": 1,
+   "hash": "hh9gby3dm4",
+   "start": 1040,
+   "end": 1136,
+   "title": "La croûte se brise : failles et résurgences de lave",
+   "descriptif": "[17:20 => 18:56] La croûte se brise : failles et résurgences de lave\nLa croûte terrestre se brise, parfois sous l'effet sismique, laissant apparaître des résurgences de lave émergeant du sol. Parfois de grandes failles de lave craquent le sol.\n**Lignes de lumière orange-jaune qui craquent le long des barres à partir du bord ; résurgences = points lumineux qui s'ouvrent puis rougeoient ; étincelles sur les aigus.**\n**• Rythme : pulsations calées sur la batterie.**\n_Son : graves très puissants (le niveau le plus fort du mix), rythme régulier et dense._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Failles",
+      "level": 1,
+      "minS": 4
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "ember",
+      "level": 0.4,
+      "beat": 0.75,
+      "src": "drums"
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 0.6
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01136",
+   "version": 1,
+   "hash": "1ityufihd7s",
+   "start": 1136,
+   "end": 1160,
+   "title": "Apaisement : les failles s'éteignent",
+   "descriptif": "[18:56 => 19:20] Apaisement : les failles s'éteignent\nÇa se calme un peu à la fin.\n**Les failles s'éteignent peu à peu, lueur rouge sombre.**\n_Son : léger creux vers 19:00._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Failles",
+      "level": 0.7,
+      "minS": 6
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ember",
+      "level": 0.45
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01160",
+   "version": 1,
+   "hash": "bj3t35tt8z",
+   "start": 1160,
+   "end": 1234,
+   "title": "Montée lente : la lave remonte et s'accumule",
+   "descriptif": "[19:20 => 20:34] Montée lente : la lave remonte et s'accumule\nMontée lente. La lave remonte du sol et s'accumule, parfois ralentit.\n**La lave remonte du bord vers le centre en nappes lentes qui s'accumulent et ralentissent par moments ; réutilise tunnels et pulsations selon le rythme.**\n**• Rythme : les pulsations suivent un peu la batterie et les synthés en plus des graves.**\n_Son : rythme régulier, densité moyenne à forte._",
+   "fx": {
+    "palette": "lava",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady"
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "lava",
+      "level": 0.7,
+      "beat": 0.4,
+      "src": "drums+other"
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01234",
+   "version": 1,
+   "hash": "21ppk7gmtqw",
+   "start": 1234,
+   "end": 1281,
+   "title": "Ralentissement : la lave stagne",
+   "descriptif": "[20:34 => 21:21] Ralentissement : la lave stagne\nLa lave ralentit et s'accumule.\n**La lave stagne, rouge sombre, avec de rares éclats violets.**\n_Son : chute des graves, il ne reste que les aigus._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "ember",
+      "level": 0.5
+     },
+     {
+      "n": "Étincelles",
+      "pal": "violet",
+      "amount": 0.3
+     }
+    ]
+   },
+   "events": [
+    {
+     "k": "20:36",
+     "name": "CirclesFlash",
+     "on": 1236.9,
+     "span": 3,
+     "text": "CirclesFlash : à 20:36,9 (puis 20:39,9, 20:42,6, 20:45,4, 20:48,2, 20:50,9, 20:53,6 et 20:56,4), flash uniforme de tous les cercles de la liste Circles, dans la même couleur que CirclesDanse (violet pour le cercle extérieur, puis rouge, puis de nouveau violet vers le centre) : attaque très rapide puis disparition douce et longue (3 s, retombée exponentielle adoucie).",
+     "def": {
+      "at": 1236.9,
+      "span": 3,
+      "dur": 3.1,
+      "fx": {
+       "n": "GeoFlash",
+       "lists": [
+        "Circles"
+       ],
+       "grad": "#7a2bd6@0>#d4285f@0.3>#ff3a1e@0.55>#8a2be2@0.85",
+       "span": 3
+      }
+     }
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1239.9,
+     "span": 3
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1242.6,
+     "span": 3
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1245.35,
+     "span": 3
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1248.2,
+     "span": 3
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1250.9,
+     "span": 3
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1253.6,
+     "span": 3
+    },
+    {
+     "dup": 1,
+     "k": "20:36",
+     "on": 1256.4,
+     "span": 3
+    },
+    {
+     "k": "20:58",
+     "name": "CirclesDanse",
+     "on": 1258.7,
+     "span": 22.3,
+     "text": "CirclesDanse : de 20:58,7 à 21:21,0 (22,3 s), les 4 cercles concentriques de la liste Circles tournent en sens alternés (le premier cercle dans le sens horaire, le suivant antihoraire, et ainsi de suite), EN STEPS : à chaque note de synthé ou kick, chaque cercle tourne d'une barre (barre de tête pleine, puis une longue traîne lumineuse de 4 barres qui s'estompe progressivement ; la dernière barre du serpent ainsi formé n'est pas éclairée du tout ; le reste du cercle faiblement allumé). Sur le premier cercle (5 barres), la traîne est limitée à 3 barres. La couleur dépend de la hauteur : violet pour le cercle extérieur (en bas), puis rouge, puis de nouveau violet pour le cercle central (en haut). Le cercle extérieur (15 barres) a la place pour deux serpents : il en porte deux, diamétralement opposés (espacés d'une demi-circonférence), qui avancent ensemble. La barre de tête de chaque serpent brille plus que le reste (plus lumineuse et éclaircie) ; la traîne est un peu plus sombre pour la faire ressortir. Fondu d'entrée et de sortie de 0,4 s.",
+     "def": {
+      "at": 1258.7,
+      "span": 4,
+      "dur": 4.1,
+      "fx": {
+       "n": "GeoSpin",
+       "lists": [
+        "Circles"
+       ],
+       "steps": true,
+       "trail": 5,
+       "snakes": {
+        "4": 2
+       },
+       "minS": 2,
+       "noteZ": 1.5,
+       "grad": "#7a2bd6@0>#d4285f@0.3>#ff3a1e@0.55>#8a2be2@0.85",
+       "span": 4
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "p01281",
+   "version": 1,
+   "hash": "spxf3bc8ta",
+   "start": 1281,
+   "end": 1322,
+   "title": "Reprise : la montée repart, puissante",
+   "descriptif": "[21:21 => 22:02] Reprise : la montée repart, puissante\nLa lave remonte à nouveau.\n**La montée repart avec la puissance des graves.**\n**• Rythme : pulsations calées sur la batterie ; léger battement général sur les gros kicks.**\n_Son : retour de la puissance, graves à plein volume._",
+   "fx": {
+    "palette": "lava",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "lava",
+      "level": 0.9,
+      "beat": 0.8,
+      "src": "drums"
+     },
+     {
+      "n": "Battement",
+      "t0": 1281,
+      "t1": 1322,
+      "a0": 0.14,
+      "a1": 0.18,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01322",
+   "version": 1,
+   "hash": "2f7q594sydm",
+   "start": 1322,
+   "end": 1414,
+   "title": "Recul magique : étincelles dorées",
+   "descriptif": "[22:02 => 23:34] Recul magique : étincelles dorées\nPrise de recul comme dans les phases calmes du chapitre de 11:10, avec en plus des traînées d'étincelles magiques.\n**Fond calme rouge sombre et orange comme en 11:10 ; en plus, traînées d'étincelles dorées nombreuses dont la quantité suit certaines fréquences (médiums).**\n_Son : groove à dominante médiums, moins dense._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "pal": "lava",
+      "level": 0.4
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 1.4,
+      "band": "mid",
+      "trail": 8
+     },
+     {
+      "n": "Éclairs",
+      "rate": 0.25
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01414",
+   "version": 1,
+   "hash": "qzdao84dj2",
+   "start": 1414,
+   "end": 1529,
+   "title": "Tourbillon de lave autour du dôme",
+   "descriptif": "[23:34 => 25:29] Tourbillon de lave autour du dôme\nTourbillon de lave. On est pris dans la lave qui tourne autour du dôme, parfois ralentie. Quand c'est moins saturé, le tourbillon se calme et l'effet va vers la brûlure d'un papier qui se consume.\n**Une bande de lave orange-jaune tourne autour du dôme, vitesse liée au rythme, parfois ralentie. Dans les moments moins saturés : « brûlure » qui se consume du bord vers le centre comme du papier.**\n**• Diversité : le tourbillon domine au début (jusqu'à 23:58) et à la fin (dès 25:06) et reste présent plus discrètement entre les deux ; entre-temps alternent de larges coulées lisses (vers 23:57-24:24), des flammes (vers 24:20-24:47) et des failles sur les gros kicks (vers 24:43-25:10), qui s'enchaînent en fondu.**\n_Son : le plus dense et le plus brillant du mix (rythme très rapide, aigus maximum) jusqu'à 25:06._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Tourbillon",
+      "level": 1,
+      "win": [
+       [
+        1414,
+        1440,
+        3
+       ],
+       [
+        1506,
+        1529,
+        3
+       ]
+      ]
+     },
+     {
+      "n": "Tourbillon",
+      "level": 0.4,
+      "win": [
+       [
+        1440,
+        1506,
+        6
+       ]
+      ]
+     },
+     {
+      "n": "Coulées",
+      "mode": "both",
+      "level": 0.8,
+      "soft": 1,
+      "slow": true,
+      "win": [
+       [
+        1437,
+        1464,
+        4
+       ]
+      ]
+     },
+     {
+      "n": "Flammes",
+      "level": 0.7,
+      "speed": 0.9,
+      "debrisMinS": 6,
+      "win": [
+       [
+        1460,
+        1487,
+        4
+       ]
+      ]
+     },
+     {
+      "n": "Failles",
+      "level": 0.9,
+      "minS": 4,
+      "win": [
+       [
+        1483,
+        1510,
+        3
+       ]
+      ]
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "fire",
+      "level": 0.3,
+      "beat": 0.8
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01529",
+   "version": 1,
+   "hash": "lbxgwjqvyc",
+   "start": 1529,
+   "end": 1752,
+   "title": "L'éruption se prépare : la lave remonte les tunnels",
+   "descriptif": "[25:29 => 29:12] L'éruption se prépare : la lave remonte les tunnels\nPhases rapides : l'éruption se prépare, la lave remonte les tunnels.\n**Réseau de tunnels orange qui s'allument sur le rythme, comme dans les premiers chapitres, avec remontée de la lumière du bord vers le centre. Les tunnels se remplissent du bas vers le haut du dôme (la lave remonte).**\n**• Rythme : pulsations plus calées sur les kicks ; battement général sur les gros kicks qui monte progressivement jusqu'à la fin de la phase.**\n_Son : plateau d'intensité, baisse brève vers 27:00–27:30 puis graves à nouveau très forts._",
+   "fx": {
+    "palette": "lava",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady"
+     },
+     {
+      "n": "Tunnels de lave",
+      "dir": "up",
+      "t0": 0,
+      "t1": 1
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "lava",
+      "level": 0.9,
+      "beat": 0.7
+     },
+     {
+      "n": "Battement",
+      "t0": 1529,
+      "t1": 1752,
+      "a0": 0.06,
+      "a1": 0.24,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01752",
+   "version": 1,
+   "hash": "1xeazdym4an",
+   "start": 1752,
+   "end": 1932,
+   "title": "Limace : un front rouge sombre qui brûle les pierres",
+   "descriptif": "[29:12 => 32:12] Limace : un front rouge sombre qui brûle les pierres\nPhases lentes : la lave rouge sombre progresse doucement en brûlant des pierres, comme une limace un peu plus rapide.\n**Front rouge sombre qui avance lentement le long des barres en laissant de petites braises ; rythme porté par les graves seuls.**\n**• Rythme : un peu plus de suivi des kicks dans les pulsations.**\n_Son : médiums et aigus presque absents (son filtré), seuls graves et rythme restent ; coupure des graves vers 30:40._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady"
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ember",
+      "level": 0.8,
+      "beat": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01932",
+   "version": 1,
+   "hash": "bgz9dg5r41",
+   "start": 1932,
+   "end": 1960,
+   "title": "Éboulement puis éruption",
+   "descriptif": "[32:12 => 32:40] Éboulement puis éruption\nÉboulement puis éruption.\n**Coups de lumière sombres qui descendent du centre vers le bord ; puis éruption : front jaune-blanc du bord vers le centre.**\n**• Rythme : pulsations calées sur batterie et synthés ; battement général sur les gros kicks, plus marqué.**\n_Son : bref pic d'énergie (graves puissants) vers 32:30._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Jaillissement de lave",
+      "t0": 1932,
+      "rise": 1.2,
+      "tail": 2.5
+     },
+     {
+      "n": "Pulsation audio",
+      "dir": "up",
+      "pal": "fire",
+      "level": 1,
+      "beat": 0.8,
+      "src": "drums+other"
+     },
+     {
+      "n": "Battement",
+      "t0": 1932,
+      "t1": 1960,
+      "a0": 0.18,
+      "a1": 0.22,
+      "minS": 3,
+      "gap": 0.22,
+      "tau": 0.13,
+      "minW": 0.5,
+      "spread": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p01960",
+   "version": 1,
+   "hash": "k909jmo6r0",
+   "start": 1960,
+   "end": 2108,
+   "title": "La forêt brûle : grandes flammes et débris enflammés",
+   "descriptif": "[32:40 => 35:08] La forêt brûle : grandes flammes et débris enflammés\nLa lave a atteint la forêt. De grandes flammes s'élèvent de la forêt qui brûle. De gros débris enflammés venant de l'éruption s'écrasent dans un paysage de plus en plus dévasté.\n**Bandes orange-jaune qui vacillent et montent du bord vers le centre ; débris enflammés = projectiles jaunes qui retombent du centre vers le bord ; les zones touchées restent rouge sombre (dévasté).**\n_Son : groove de graves stable et puissant, assez rond (moins d'aigus)._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Flammes",
+      "level": 1,
+      "debrisMinS": 6
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 0.5
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02108",
+   "version": 1,
+   "hash": "2c4pfi7vjto",
+   "start": 2108,
+   "end": 2210,
+   "title": "Propagation du feu, arbres qui s'effondrent",
+   "descriptif": "[35:08 => 36:50] Propagation du feu, arbres qui s'effondrent\nLe feu gagne rapidement en vitesse et se propage dans la forêt, les animaux fuient. Parfois des arbres s'effondrent dans un bourgeonnement d'étincelles.\n**Flammes plus rapides et plus nombreuses, portées par la grosse caisse (la basse est absente de la phase), puis par les synthés quand la batterie s'efface vers 36:20 ; gerbes d'étincelles quand un arbre s'effondre (explosions locales sur les aigus).**\n_Son : groove porté par la grosse caisse (pas de basse, la batterie est très forte et régulière) jusqu'à 36:20 ; ensuite la batterie s'efface et les synthés prennent le relais jusqu'à 36:50._",
+   "fx": {
+    "palette": "fire",
+    "fx": [
+     {
+      "n": "Flammes",
+      "level": 1.1,
+      "speed": 1.5,
+      "debrisMinS": 5,
+      "src": "drums+other"
+     },
+     {
+      "n": "Étincelles",
+      "pal": "fire",
+      "amount": 1
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02210",
+   "version": 1,
+   "hash": "1ez8z1rd7d5",
+   "start": 2210,
+   "end": 2268,
+   "title": "La lave ralentit et rougit, l'océan approche",
+   "descriptif": "[36:50 => 37:48] La lave ralentit et rougit, l'océan approche\nLa lave ralentit, devient plus rouge qu'orangée, forme des coulées qui commencent lentement à atteindre l'océan, embrasant parfois un arbre ou deux de la côte.\n**Coulées plus rouges qu'orange vers le bord du dôme ; un ou deux arbres qui s'embrasent (flash local jaune).**\n**• Rythme : un peu de suivi des kicks dans les pulsations.**\n_Son : le son s'allège, graves ponctuels, peu d'aigus._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady"
+     },
+     {
+      "n": "Flammes",
+      "level": 0.35,
+      "speed": 0.6,
+      "debrisMinS": 9
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ember",
+      "level": 0.5,
+      "beat": 0.25
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02268",
+   "version": 1,
+   "hash": "1qvm4shhnak",
+   "start": 2268,
+   "end": 2340,
+   "title": "Vers la mer : premiers torrents de lave",
+   "descriptif": "[37:48 => 39:00] Vers la mer : premiers torrents de lave\nVers la fin, des torrents de lave commencent à couler dans l'océan.\n**Torrents rouge sombre qui atteignent le bord ; premières touches bleues au bord.**\n_Son : aigus très peu présents._",
+   "fx": {
+    "palette": "ember",
+    "fx": [
+     {
+      "n": "Pulsation audio",
+      "pal": "ember",
+      "level": 0.45
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02340",
+   "version": 1,
+   "hash": "1iawm6yv447",
+   "start": 2340,
+   "end": 2485,
+   "title": "Lave et océan : le chaud rencontre le froid",
+   "descriptif": "[39:00 => 41:25] Lave et océan : le chaud rencontre le froid\nLa lave rouge sombre s'écoule dans l'océan. Elle rencontre le bleu, des touches violettes, se fige, repart, bulle, comme dans la réalité. Impacts du froid et du chaud.\n**Rouge sombre qui s'écoule vers le bord et rencontre bleus et touches violettes : zones qui se figent (gris-bleu) puis repartent, petites bulles blanc-bleu ; contraste chaud / froid.**\n**• Rythme : les pulsations bleutées suivent un peu plus les kicks.**\n_Son : plateau calme et constant, densité rythmique la plus basse depuis le début._",
+   "fx": {
+    "palette": "blue",
+    "fx": [
+     {
+      "n": "Braises",
+      "mode": "steady"
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ocean",
+      "level": 0.5,
+      "beat": 0.35
+     },
+     {
+      "n": "Vagues",
+      "level": 0.4
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02485",
+   "version": 1,
+   "hash": "1gpbi0yrapn",
+   "start": 2485,
+   "end": 2595,
+   "title": "L'océan absorbe la lave",
+   "descriptif": "[41:25 => 43:15] L'océan absorbe la lave\nProgressivement, le bleu de l'océan absorbe la lave.\n**Le bleu gagne du bord vers le centre et le rouge recule : même scène de collision lave-eau qu'en phase 33 (voir cette phase), avec nettement plus de lave (coulées plus fréquentes et plus étendues, plus de résidus).**\n_Son : le son devient sourd, étouffé, presque sans aigus (comme sous l'eau) à partir de 41:35._",
+   "fx": {
+    "palette": "blue",
+    "fx": [
+     {
+      "n": "Vagues",
+      "level": 0.9
+     },
+     {
+      "n": "Collision lave-eau",
+      "t0": 2485,
+      "repeats": 5,
+      "period": 22,
+      "spread": 20,
+      "reach": 0.78,
+      "fade": 12,
+      "seepEvery": 5,
+      "tips": 1.8,
+      "gain": 1.1
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ocean",
+      "level": 0.4
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02595",
+   "version": 1,
+   "hash": "8tbpbmn4jw",
+   "start": 2595,
+   "end": 2700,
+   "title": "Sous l'eau : vagues lentes, restes de lave",
+   "descriptif": "[43:15 => 45:00] Sous l'eau : vagues lentes, restes de lave\nOn finit sous l'eau, le dôme joue avec la magie des vagues.\n**Ondulations bleues lentes (vagues) qui traversent le dôme ; reflets bleu-vert et violet. Même scène de collision lave-eau que dans la phase 33, avec un peu plus de lave qu'en phase 33 mais moins qu'en phase 31.**\n**• Ajout très léger : pulsation bleutée discrète calée sur la batterie.**\n_Son : les graves reviennent, toujours peu d'aigus._",
+   "fx": {
+    "palette": "blue",
+    "fx": [
+     {
+      "n": "Vagues",
+      "level": 1
+     },
+     {
+      "n": "Collision lave-eau",
+      "t0": 2595,
+      "repeats": 4,
+      "period": 26,
+      "spread": 22,
+      "reach": 0.7,
+      "fade": 12,
+      "seepEvery": 6.5,
+      "tips": 1.4,
+      "gain": 1
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ocean",
+      "level": 0.22,
+      "beat": 0.35,
+      "src": "drums"
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02700",
+   "version": 1,
+   "hash": "nf5r2t5t7d",
+   "start": 2700,
+   "end": 2835,
+   "title": "Magie des vagues : la lave se fond dans le bleu",
+   "descriptif": "[45:00 => 47:15] Magie des vagues : la lave se fond dans le bleu\nLe dôme joue avec la magie des vagues.\n**▸ Eau**\n**• Ajout très léger : pulsation bleutée discrète calée sur la batterie.**\n**• Bleu clair et écume blanche qui montent avec les aigus.**\n**▸ Lave**\n**• La lave rouge vif entre en collision avec l'eau par le haut du dôme (centre) : à son contact elle fonce (rouge vif, puis violet sombre) et se fond dans le bleu.**\n**• Quelques résidus de lave subsistent sous l'eau : de petits tunnels rougeoyants s'infiltrent délicatement jusqu'en bas du dôme (vers le bord).**\n**• La lave avance de façon asymétrique dans l'eau et rencontre des obstacles qu'elle contourne ; en bas du dôme il ne reste du rouge vif que des pointes aléatoires.**\n**• L'écoulement global de lave se produit plusieurs fois (4 coulées, environ toutes les 32 s).**\n_Son : les aigus reviennent peu à peu._",
+   "fx": {
+    "palette": "blue",
+    "fx": [
+     {
+      "n": "Vagues",
+      "level": 1
+     },
+     {
+      "n": "Collision lave-eau",
+      "t0": 2700,
+      "repeats": 4,
+      "period": 32,
+      "spread": 26,
+      "reach": 0.62,
+      "fade": 12
+     },
+     {
+      "n": "Étincelles",
+      "pal": "ocean",
+      "amount": 0.5
+     },
+     {
+      "n": "Pulsation audio",
+      "pal": "ocean",
+      "level": 0.22,
+      "beat": 0.4,
+      "src": "drums"
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02835",
+   "version": 1,
+   "hash": "g54lay8sir",
+   "start": 2835,
+   "end": 2964,
+   "title": "Abysses : les braises s'éteignent sous l'eau",
+   "descriptif": "[47:15 => 49:24] Abysses : les braises s'éteignent sous l'eau\nLa lave termine de rougeoyer comme les braises du début (phases 1 et 2), jusqu'à s'éteindre, mais cette fois sous l'eau : au début on est près de la surface, l'eau est claire et lumineuse, puis on s'enfonce de plus en plus vers le bleu sombre, jusqu'à l'extinction totale des feux.\n**▸ Braises**\n**• Les braises (avec leur cœur lumineux et les petits foyers) rougeoient comme dans les phases 1 et 2 et s'éteignent une à une, vues à travers l'eau (leur rouge se mêle au bleu).**\n**▸ Eau**\n**• L'eau bleue, claire et lumineuse au départ, s'assombrit progressivement vers le bleu sombre, puis s'éteint complètement : extinction totale des feux vers 49:15, en même temps que la fin du son.**\n_Son : il ne reste que les graves, qui s'éteignent jusqu'au silence vers 49:15._",
+   "fx": {
+    "palette": "blue",
+    "fx": [
+     {
+      "n": "Vagues",
+      "level": 1,
+      "clear": 1,
+      "dimT0": 2850,
+      "dimT1": 2955
+     },
+     {
+      "n": "Braises",
+      "mode": "sleep",
+      "t0": 2850,
+      "t1": 2955,
+      "core": true,
+      "small": true
+     }
+    ]
+   },
+   "events": []
+  },
+  {
+   "id": "p02964",
+   "version": 1,
+   "hash": "2glqh111k7i",
+   "start": 2964,
+   "end": 2977,
+   "title": "Silence",
+   "descriptif": "[49:24 => 49:37] Silence\nSilence.\n**Noir.**",
+   "fx": {
+    "palette": "dark",
+    "fx": []
+   },
+   "events": []
+  }
+ ]
+}
