@@ -1,0 +1,8 @@
+SYLVASONIC – DESCRIPTIF (durée du mix : 23:17)
+
+Même code de mise en page que PYROBEATS (voir descriptif-pyrobeats.txt) :
+[mm:ss => mm:ss] Titre = phase ; *mm:ss* = évènement ; **gras** = technique ; texte normal = descriptif ; _italique_ = son ; **CHAPITRE [mm:ss]** = grandes étapes.
+
+======================================================================
+
+[00:00 => 23:17] À décrire

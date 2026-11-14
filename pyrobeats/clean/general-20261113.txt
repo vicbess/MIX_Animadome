@@ -1,0 +1,15 @@
+﻿NETTOYAGE GENERAL - 13/11/2026
+Sauvegarde avant nettoyage : clean\backups\general-20261113\ (descriptif, fxmap, prompts, show.template ; events-timing.json volontairement exclu : fichier gere par la page).
+
+Descriptif
+- Heures/durees recalees sur la timeline (information la plus recente) : EvilPenta 2:27,4 ; Gerbes 2:49,0 ; SlowLava 7:47,3-7:55,2 ; Gerbes 8:20,4 (+ texte de la phase 7) ; Gerbes 10:54,3 (+ texte de la phase 10) ; PentaCircle 1,35 s ; LineAPulse 5:04,9-5:06,4 ; GerbeEtincelles 5:27,4 (1,7 s) ; CirclesDanse 22,3 s ; Vibration jusqu'a 4:17,6 ; CirclesFlash : 8 flashs.
+- Restes de corrections retires ("plus de blanc", "pour tous les PentaCircle", etiquette "Realise").
+- SlowLava (x4) et SlowLavaBlanc (x1) copies : texte complet conserve une seule fois, les autres renvoient a lui.
+- 38 blocs *mm:ss* remis en ordre chronologique.
+
+fxmap.js
+- Bloc events : une ligne par event, indentation homogene, ordre chronologique ; commentaires perimes corriges.
+- Descriptions de la banque : couleurs retirees (EvilPenta, CirclesDanse, SlowLava, SlowLavaBlanc).
+
+Fichiers : descriptif-pyrobeats.bak.txt range dans sauvegardes\.
+Non touche : events-timing.json, prompts*.json, show.template.html, textes des phases.

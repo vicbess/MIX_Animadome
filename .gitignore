@@ -1,0 +1,13 @@
+# Audio : échangé hors GitHub (chaque collaborateur a sa copie)
+audio/
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+# Local à chaque utilisateur
+prompts.jsonl
+prompts-done.json
+**/clean/backups/
+*.bak.txt
+Thumbs.db
