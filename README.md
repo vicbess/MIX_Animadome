@@ -62,9 +62,11 @@ Le bouton **publish phases** (en haut de la page, à côté du choix du mix) pub
 
 Chaque phase publiée contient son texte du descriptif, ses réglages d'effets, ses events (copies comprises) et son timing dans le mix, avec un numéro de version propre : il augmente seulement quand le contenu de la phase change.
 
-## Récupérer une phase (prévu)
+## Récupérer une phase
 
-À venir : récupérer **une seule phase** à la fois depuis le fichier publié par un collaborateur, en choisissant sa version, y compris son timing dans le mix. Les bornes des phases sont fixées par la personne qui démarre le mix.
+Sur la timeline, la barre colorée d'une phase devient **jaune striée de rouge** (numéro en jaune) quand la publication d'un **autre** utilisateur diffère de ta version. Un clic sur cette barre ouvre **updater phase X** : l'outil récupère d'abord les publications sur GitHub, liste les versions disponibles de la phase (utilisateur, version, date) et remplace, au choix, son texte, ses réglages et ses events. Une sauvegarde est faite (clean/backups/pull-…) et un bouton **Annuler** restaure l'état précédent.
+
+Les bornes des phases sont fixées par la personne qui démarre le mix : une version dont les bornes diffèrent des tiennes n'est pas encore récupérable.
 
 ## Licence
 
