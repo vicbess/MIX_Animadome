@@ -35,6 +35,7 @@ mixes/
    ├─ events-timing.json        positions, durées et copies d'events posés sur la timeline
    ├─ stems.js  beats.js  features.js  gut.js     analyse du son (calculée, ne pas éditer)
    ├─ clean/                    rapports de nettoyage de phase
+   ├─ publish/                  phases publiées : un fichier par utilisateur, nommé <utilisateur>_phases.json
    └─ audio/                    NON versionné : l'audio du mix (voir plus bas)
 ```
 
@@ -55,9 +56,15 @@ Chaque mix déclare son fichier audio dans `mix.json` (champ `audio`, relatif au
 
 Ne sont pas versionnés : l'audio, l'historique des prompts de chacun (`prompts.jsonl`, `prompts-done.json`), les sauvegardes de nettoyage (`clean/backups/`) et les copies de secours (`*.bak.txt`).
 
-## Travailler à plusieurs (prévu)
+## Publier ses phases
 
-Chaque mix est découpé en phases. À venir : publier toutes les phases d'un mix en une fois (avec une version par phase) et pouvoir récupérer **une seule phase** à la fois depuis le fichier publié par un collaborateur, y compris son timing dans le mix. Les bornes des phases sont fixées par la personne qui démarre le mix.
+Le bouton **publish phases** (en haut de la page, à côté du choix du mix) publie **toutes les phases** du mix d'un coup dans `<mix>/publish/<utilisateur>_phases.json` puis l'envoie sur GitHub. Le nom d'utilisateur est **toujours en préfixe du fichier** : si deux personnes publient en même temps, chacune écrit dans son propre fichier et rien n'est écrasé.
+
+Chaque phase publiée contient son texte du descriptif, ses réglages d'effets, ses events (copies comprises) et son timing dans le mix, avec un numéro de version propre : il augmente seulement quand le contenu de la phase change.
+
+## Récupérer une phase (prévu)
+
+À venir : récupérer **une seule phase** à la fois depuis le fichier publié par un collaborateur, en choisissant sa version, y compris son timing dans le mix. Les bornes des phases sont fixées par la personne qui démarre le mix.
 
 ## Licence
 
