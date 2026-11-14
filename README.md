@@ -64,10 +64,15 @@ Chaque phase publiée contient son texte du descriptif, ses réglages d'effets, 
 
 ## Récupérer une phase
 
-Sur la timeline, la barre colorée d'une phase devient **jaune striée de rouge** (numéro en jaune) quand la publication d'un **autre** utilisateur diffère de ta version. Un clic sur cette barre ouvre **updater phase X** : l'outil récupère d'abord les publications sur GitHub, liste les versions disponibles de la phase (utilisateur, version, date) et remplace, au choix, son texte, ses réglages et ses events. Une sauvegarde est faite (clean/backups/pull-…) et un bouton **Annuler** restaure l'état précédent.
+Sur la timeline, la barre colorée d'une phase devient **jaune striée de rouge** (numéro en jaune) quand la publication d'un **autre** utilisateur diffère de ta version. L'outil le vérifie sur GitHub toutes les 3 minutes (un simple test, sans rien télécharger ni écrire chez toi s'il n'y a rien de neuf).
+
+Un clic sur cette barre, ou sur « PHASE X » / le titre de la phase, ouvre un menu :
+
+- **updater phase X** : liste les versions disponibles de la phase (utilisateur, version, date, nombre d'events), lues directement sur GitHub, et remplace au choix son texte, ses réglages et ses events. Une sauvegarde est faite (`clean/backups/pull-…`) et un bouton **Annuler** restaure l'état précédent ;
+- **check for updates** : force la vérification et affiche les phases à mettre à jour ;
+- **publish phases** : publie toutes tes phases.
 
 Les bornes des phases sont fixées par la personne qui démarre le mix : une version dont les bornes diffèrent des tiennes n'est pas encore récupérable.
-
 ## Licence
 
 Les textes, réglages et fichiers d'analyse de ce dépôt sont sous licence [MIT](LICENSE). Les droits sur les musiques restent à leurs auteurs.
