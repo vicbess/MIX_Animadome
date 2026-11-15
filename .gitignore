@@ -14,3 +14,8 @@ Thumbs.db
 # Pistes séparées et journal d'analyse (locaux)
 tracks/
 analysis.log
+
+# Analyse v2 : journaux et données brutes locales
+analysis2.log
+analysis2.err
+analysis2.js
