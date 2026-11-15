@@ -1,0 +1,84 @@
+[
+  {"name":"LavaSpeed","on":347,"span":7,"why":"phase 5 : la lave remonte vite dans les conduits, les graves reviennent fort"},
+  {"name":"CrossGlitch","on":372,"span":9.6,"why":"phase 5 : suite de sons cristallins aigus (bruitages 6:12 à 6:29)"},
+  {"name":"Ruée","on":425,"span":4,"why":"phase 5 : fin de montée juste avant la phase 6 (la pression se prépare)"},  {"name":"LineAPulse","on":690.5,"span":2.1,"why":"phase 11 : écho isolé quand la musique se tait (11:30)"},
+  {"name":"Ruée","on":793,"span":4,"why":"phase 11 : la musique revient d'un coup à 13:21 (+16 dB)"},
+
+  {"name":"Gerbes","on":808,"span":2.6,"why":"phase 12 : poussée de dubstep (13:28)"},
+  {"name":"Rien","on":825,"span":0.5,"why":"phase 12 : creux net à 13:45 (le son tombe de 62 dB)"},
+  {"name":"EvilPenta","on":831,"span":4.5,"why":"phase 12 : le rythme repart à 13:51 (+41 dB)"},
+  {"name":"LavaSpeed","on":860,"span":8,"why":"phase 12 : le rythme dense s'installe jusqu'à 15:00"},
+
+  {"name":"Vibration","on":913,"span":4.5,"why":"phase 13 : graves profonds dans le creux le plus marqué (15:13 à 15:17)"},
+  {"name":"LineAPulse","on":926,"span":1.6,"why":"phase 13 : son cristallin isolé à 15:26"},
+
+  {"name":"Ruée","on":942,"span":3.5,"why":"phase 14 : remontée franche à partir de 15:45"},
+  {"name":"Gerbes","on":954,"span":2.6,"why":"phase 14 : les kicks reviennent à 15:54 après un long creux"},
+  {"name":"Rien","on":965,"span":0.5,"why":"phase 14 : le son chute de 23 dB à 16:05"},
+
+  {"name":"LineAPulse","on":1019,"span":1.6,"why":"phase 15 : un point brillant dans le son aérien (16:59)"},
+  {"name":"PentaCircle","on":1030,"span":1.4,"why":"phase 15 : fin du long creux de kicks (17:10)"},
+  {"name":"Ruée","on":1036,"span":4,"why":"phase 15 : l'énergie remonte juste avant la brisure de croûte (17:16)"},
+
+  {"name":"Vibration","on":1042,"span":8,"why":"phase 16 : graves très puissants (le niveau le plus fort du mix)"},
+  {"name":"Gerbes","on":1069,"span":2.6,"why":"phase 16 : poussée régulière à 17:49"},
+  {"name":"Jaillissement","on":1089,"span":5,"why":"phase 16 : résurgence de lave à 18:09"},
+  {"name":"Gerbes","on":1097,"span":2.6,"why":"phase 16 : poussée à 18:17 (-10 dB puis retour)"},
+
+  {"name":"LavaSpeed","on":1165,"span":9,"why":"phase 18 : la lave remonte et s'accumule"},
+  {"name":"CrossGlitch","on":1192,"span":9.6,"why":"phase 18 : sons cristallins aigus de 19:52 à 20:08"},
+
+  {"name":"EvilPenta","on":1282,"span":4.5,"why":"phase 20 : retour de la puissance à 21:22"},
+  {"name":"LavaSpeed","on":1290,"span":8,"why":"phase 20 : la montée repart"},
+  {"name":"Gerbes","on":1308,"span":2.6,"why":"phase 20 : poussée à 21:48"},
+
+  {"name":"PentaCircle","on":1340,"span":1.4,"why":"phase 21 : étincelles dorées, fin de la longue plage sans kick (22:20)"},
+  {"name":"PentaCircle","on":1372,"span":1.4,"why":"phase 21 : retour de la batterie à 22:52"},
+  {"name":"LineAPulse","on":1389,"span":1.6,"why":"phase 21 : le son bondit de 7 dB (23:09)"},
+
+  {"name":"Ruée","on":1428,"span":3,"why":"phase 22 : creux de kicks avant l'accélération (23:48)"},
+  {"name":"CrossGlitch","on":1458,"span":9.6,"why":"phase 22 : le plus brillant du mix, rythme très rapide (24:18)"},
+  {"name":"Gerbes","on":1484,"span":2.6,"why":"phase 22 : poussée à 24:44"},
+
+  {"name":"Vibration","on":1622,"span":6,"why":"phase 23 : baisse brève puis graves très forts (27:02)"},
+  {"name":"Gerbes","on":1671,"span":2.6,"why":"phase 23 : graves puissants (27:51)"},
+  {"name":"LavaSpeed","on":1710,"span":10,"why":"phase 23 : la lave remonte les tunnels vers l'éruption"},
+  {"name":"Ruée","on":1746,"span":4,"why":"phase 23 : tension avant la phase Limace (29:06)"},
+
+  {"name":"Rien","on":1840,"span":0.5,"why":"phase 24 : coupure des graves à 30:40"},
+  {"name":"LavaSpeed","on":1890,"span":9,"why":"phase 24 : le front de lave avance, le son est filtré"},
+  {"name":"Ruée","on":1925,"span":4,"why":"phase 24 : montée vers l'éboulement (32:05)"},
+
+  {"name":"Vibration","on":1934,"span":8,"why":"phase 25 : éboulement, graves puissants"},
+  {"name":"Éruption","on":1950,"span":3.6,"why":"phase 25 : pic d'énergie à 32:30, éboulement puis éruption"},
+
+  {"name":"Gerbes","on":1972,"span":2.6,"why":"phase 26 : grande flamme sur un graves (32:52)"},
+  {"name":"Jaillissement","on":1987,"span":5,"why":"phase 26 : la forêt s'embrase (33:07)"},
+  {"name":"Rien","on":2037,"span":0.5,"why":"phase 26 : le son chute de 17 dB (33:57)"},
+  {"name":"Ruée","on":2096,"span":4,"why":"phase 26 : montée vers la propagation du feu (34:56)"},
+
+  {"name":"CrossGlitch","on":2120,"span":9.6,"why":"phase 27 : groove porté par la grosse caisse (35:20)"},
+  {"name":"TriGlitch","on":2189,"span":12,"why":"phase 27 : la batterie s'efface, les synthés prennent le relais (36:29)"},
+
+  {"name":"PentaCircle","on":2246,"span":1.4,"why":"phase 28 : le son rebondit de 8 dB (37:26), la lave rougit"},
+
+  {"name":"LavaSpeed","on":2280,"span":9,"why":"phase 29 : premiers torrents de lave (38:00, +12 dB)"},
+  {"name":"Jaillissement","on":2296,"span":5,"why":"phase 29 : torrent vers la mer (38:16)"},
+  {"name":"EvilPenta","on":2337,"span":4.5,"why":"phase 29 : contact avec la mer (38:57)"},
+
+  {"name":"LineAPulse","on":2345,"span":1.6,"why":"phase 30 : le chaud rencontre le froid (39:05)"},
+  {"name":"LineAPulse","on":2366,"span":1.6,"why":"phase 30 : plateau calme, rebond à 39:26"},
+  {"name":"PentaCircle","on":2430,"span":1.4,"why":"phase 30 : plateau calme (40:30)"},
+
+  {"name":"LineAPulse","on":2497,"span":1.6,"why":"phase 31 : le son devient sourd, rebond de 12 dB (41:37)"},
+  {"name":"PentaCircle","on":2526,"span":1.4,"why":"phase 31 : sous l'eau (42:06)"},
+
+  {"name":"PentaCircle","on":2605,"span":1.4,"why":"phase 32 : vague lente (43:25)"},
+  {"name":"PentaCircle","on":2627,"span":1.4,"why":"phase 32 : vague lente (43:47)"},
+  {"name":"LineAPulse","on":2643,"span":1.6,"why":"phase 32 : rebond à 44:03"},
+
+  {"name":"CirclesDanse","on":2740,"span":22,"why":"phase 33 : magie des vagues, les cercles tournent en sens alternés"},
+  {"name":"PentaCircle","on":2817,"span":1.4,"why":"phase 33 : sons cristallins lointains (46:57)"},
+
+  {"name":"Vibration","on":2930,"span":8,"why":"phase 34 : il ne reste que les graves (48:50), qui s'éteignent"}
+]
