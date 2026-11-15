@@ -11,3 +11,6 @@ prompts-done.json
 **/clean/backups/
 *.bak.txt
 Thumbs.db
+# Pistes séparées et journal d'analyse (locaux)
+tracks/
+analysis.log

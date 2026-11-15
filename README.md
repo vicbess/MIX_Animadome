@@ -34,6 +34,7 @@ mixes/
    ├─ fxmap.js                  réglages des effets de chaque phase et de chaque event
    ├─ events-timing.json        positions, durées et copies d'events posés sur la timeline
    ├─ stems.js  beats.js  features.js  gut.js     analyse du son (calculée, ne pas éditer)
+   ├─ CONTEXT.md                contexte du mix pour Claude (publié avec les phases)
    ├─ clean/                    rapports de nettoyage de phase
    ├─ publish/                  phases publiées : un fichier par utilisateur, nommé <utilisateur>_phases.json
    └─ audio/                    NON versionné : l'audio du mix (voir plus bas)
@@ -51,6 +52,10 @@ Chaque mix déclare son fichier audio dans `mix.json` (champ `audio`, relatif au
 - `sylvasonic` → `audio.mp3`
 
 À placer à cet endroit, à la main. Ils sont exclus du dépôt (`.gitignore`) : **ne jamais les ajouter à Git**.
+
+## Contexte du mix (CONTEXT.md)
+
+Chaque mix contient un fichier **CONTEXT.md** : le contexte à donner à une session Claude (intention artistique, palette, règles de l'auteur, vocabulaire, décisions durables). Claude le lit au début de chaque session et le tient à jour. Il est **publié avec « publish phases »** s'il a changé, et la page affiche **« ● contexte mis à jour : récupérer »** quand un autre utilisateur en a publié une nouvelle version. Chacun note ses propres décisions sous ### Notes de <utilisateur> pour éviter les conflits.
 
 ## Ce qui reste local
 
