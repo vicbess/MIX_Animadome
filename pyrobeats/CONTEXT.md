@@ -14,12 +14,18 @@ Un mix de 49:37 qui raconte une éruption volcanique : terre aride, braises qui 
 ## Règles posées par l'auteur
 - En cas de contradiction entre deux consignes, **la plus récente gagne** ; on ne supprime jamais en silence ce qui a été demandé (on le signale).
 - Le texte du descriptif doit toujours décrire ce que fait vraiment l'animation (jamais de texte périmé).
-- **Events** : un event est invoqué par son nom, qui reste **unique** (18 caractères max). Catégories de la banque : Volcano, Geometric, Basics. Les descriptions de la banque ne contiennent **ni timing ni couleur**.
+- **Events** : un event est invoqué par son nom, qui reste **unique** (18 caractères max). Catégories de la banque : Volcano, Geometric, Basics, Nature, Water. Les descriptions de la banque ne contiennent **ni timing ni couleur**.
 - Vocabulaire à connaître : *Rien* = extinction totale du dôme ; *Evil* (nom complet EvilPenta) = flash sur le cri de corbeau ; *PulseSlow* ; *LavaSpeed* ; *SlowLava* (canaux de lave, tête blanche, calotte blanche qui s'étend) ; *Gerbes*, *Éruption* ; events géométriques *PentaCircle*, *LineAPulse*, *CirclesDanse*, *CirclesFlash*, *CrossGlitch*, *TriGlitch* ; *FadeMinus* / *FadePlus*.
 - **Fondus** : un `FadeMinus` éteint l'animation de base jusqu'à un `FadePlus`. S'il en reste un sans `FadePlus`, ajouter un `FadePlus` de 2 s au début de la phase suivante, par sécurité.
 - Les phases 26 et 27 sont particulièrement appréciées : ne pas les dénaturer.
 - Le nom d'un event que l'auteur a posé sur la timeline (déplacé, copié, étiré) fait foi sur les heures écrites dans le texte : recaler le texte, pas l'inverse.
 
+## Couches d'animation (outil 1.3)
+- Trois couches activables dans le journal : **Anim base layer** (l'effet de fond de la phase, qui suit le tempo principal), **Anim secondaire** (variations chaînées : intensité, accélération, contraste du rythme, couleur) et **Events**. Tout ce qui est ajouté automatiquement est marqué « auto », désactivable un par un (⏻) ; supprimer `layers.js` annule toute la passe automatique.
+- `layers.js` est généré par `tools/auto-layers.py` d'après l'analyse v2 ; `events-plan.json` liste les events choisis à la main (avec la raison de chacun) et est fusionné dans `layers.js`. Les phases 1 à 4, 19 et certaines parties des phases 6 à 8 (dont l'éruption) n'ont volontairement reçu aucun event ajouté ; les phases 26 et 27 n'en ont reçu que peu.
+- Les couleurs des variations et des events gardent la palette de la phase sauf raison créative (descriptif ou interprétation musicale) ; pas de bazar colorimétrique. Le tempo suit les changements de tempo à l'intérieur d'une phase.
+- Nouveaux events de la banque (1.3) : *OndeDeChoc*, *Spirale*, *Balayage* (Geometric / Basics), *Marée*, *Bulles* (Water), *Cendres* (Volcano). Les détails ponctuels (étincelles, etc.) doivent devenir des events de la banque, sans doublon.
+- *Vibration* : à utiliser avec parcimonie (flashs rapides, photosensibilité).
 ## Travail en cours / à ne pas faire
 - Pas d'export TouchDesigner / sACN / DMX pour le moment (un ami s'en chargera plus tard).
 - Pas d'animations « globales » sans raison musicale.
