@@ -2,8 +2,8 @@
  "format": 1,
  "mix": "pyrobeats",
  "user": "vicbess",
- "publishedAt": "2026-11-14T21:55:22.114Z",
- "toolVersion": "1.0.0",
+ "publishedAt": "2026-11-15T13:02:52.844Z",
+ "toolVersion": "1.2.0",
  "audio": "audio/pyrobeats_128k.mp3",
  "duration": 2977,
  "phases": [
@@ -27,8 +27,8 @@
   },
   {
    "id": "p00014",
-   "version": 1,
-   "hash": "axsc3mo4ai",
+   "version": 2,
+   "hash": "rtdyaqy1t8",
    "start": 14,
    "end": 135,
    "title": "Plongée sous terre : les braises dorment et pulsent",
@@ -52,6 +52,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 14,
       "t1": 135,
       "a0": 0.03,
@@ -65,8 +66,8 @@
   },
   {
    "id": "p00135",
-   "version": 1,
-   "hash": "1kynuwxk2gb",
+   "version": 2,
+   "hash": "mzujqkluh7",
    "start": 135,
    "end": 280,
    "title": "Éveil et remontée des nappes magmatiques, tunnels de lave",
@@ -122,6 +123,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 135,
       "t1": 135,
       "a0": 0.4,
@@ -860,8 +862,8 @@
   },
   {
    "id": "p00345",
-   "version": 1,
-   "hash": "1s1ti4uh524",
+   "version": 2,
+   "hash": "j274r3kyh2",
    "start": 345,
    "end": 432,
    "title": "Remontée rapide : la lave envahit conduits et bassins",
@@ -890,6 +892,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 345,
       "t1": 432,
       "a0": 0.08,
@@ -906,8 +909,8 @@
   },
   {
    "id": "p00432",
-   "version": 1,
-   "hash": "1xmsamgdfc2",
+   "version": 2,
+   "hash": "13f33t6j29f",
    "start": 432,
    "end": 484,
    "title": "Ruée : la pression se prépare",
@@ -936,6 +939,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 432,
       "t1": 484,
       "a0": 0.12,
@@ -1015,8 +1019,8 @@
   },
   {
    "id": "p00484",
-   "version": 1,
-   "hash": "amu5of2gaj",
+   "version": 2,
+   "hash": "27ftjblg2b3",
    "start": 484,
    "end": 545,
    "title": "Fuite vers la surface, geysers et première fumée",
@@ -1034,6 +1038,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 484,
       "t1": 545,
       "a0": 0.14,
@@ -1086,8 +1091,8 @@
   },
   {
    "id": "p00545",
-   "version": 1,
-   "hash": "16x18iooe3c",
+   "version": 2,
+   "hash": "2dkjaa4a6pz",
    "start": 545,
    "end": 610,
    "title": "Bassin : la lave s'arrête et la pression monte",
@@ -1109,6 +1114,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 545,
       "t1": 610,
       "a0": 0.05,
@@ -1251,8 +1257,8 @@
   },
   {
    "id": "p00610",
-   "version": 1,
-   "hash": "wn8c06owry",
+   "version": 2,
+   "hash": "13b8e15peu",
    "start": 610,
    "end": 624,
    "title": "Éruption : le volcan explose",
@@ -1293,7 +1299,7 @@
      "name": "Éruption",
      "on": 610.2,
      "span": 3.6,
-     "text": "Éruption : à 10:10,2, explosion du volcan : flash sur tout le dôme, grand jaillissement de lave du bord vers le sommet, puis 3 gerbes successives calées sur les poussées de basse dont les étincelles retombent lentement. À chaque montée de lave (au début puis à chaque gerbe), une volée d'étincelles crépitantes jaillit de bas en haut (environ 45 étincelles qui montent chacune à une hauteur au hasard, puis restent sur place en crépitant 2 à 3 s avant de disparaître). Elle se termine (à partir de 10:13,6, pendant environ 4 s) par une phase AVEUGLANTE : les triangles du haut du dôme clignotent et vibrent en alternance orange / presque blanc (parfois), pendant que des comètes rouges partent du centre du dôme vers l'extérieur en lignes droites (sans suivre les barres) et retombent pendant plusieurs secondes vers le bas du dôme, avec une traîne.",
+     "text": "Éruption : à 10:10,2, explosion du volcan : flash sur tout le dôme, grand jaillissement de lave du bord vers le sommet, puis 3 gerbes successives calées sur les poussées de basse dont les étincelles retombent lentement. Elle se termine (à partir de 10:13,6, pendant environ 4 s) par une phase AVEUGLANTE : les triangles du haut du dôme clignotent et vibrent en alternance orange / presque blanc (parfois), pendant que des comètes rouges partent du centre du dôme vers l'extérieur en lignes droites (sans suivre les barres) et retombent pendant plusieurs secondes vers le bas du dôme, avec une traîne.",
      "def": {
       "at": 610.2,
       "span": 3.6,
@@ -1315,11 +1321,6 @@
         "n": "Gerbes",
         "span": 3.6,
         "count": 3
-       },
-       {
-        "n": "Volée",
-        "count": 3,
-        "sparks": 45
        },
        {
         "n": "Aveuglement",
@@ -1352,8 +1353,8 @@
   },
   {
    "id": "p00624",
-   "version": 1,
-   "hash": "knfhvt3iwm",
+   "version": 2,
+   "hash": "gpndrucibj",
    "start": 624,
    "end": 670,
    "title": "Grandes explosions, geysers et fumée du cratère",
@@ -1376,6 +1377,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 624,
       "t1": 670,
       "a0": 0.12,
@@ -1561,8 +1563,8 @@
   },
   {
    "id": "p00940",
-   "version": 1,
-   "hash": "p0hy9inc53",
+   "version": 2,
+   "hash": "11cu3437sgg",
    "start": 940,
    "end": 1007,
    "title": "Coulées rapides : la lave déferle à nouveau",
@@ -1582,6 +1584,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 940,
       "t1": 1007,
       "a0": 0.1,
@@ -1823,8 +1826,8 @@
   },
   {
    "id": "p01281",
-   "version": 1,
-   "hash": "spxf3bc8ta",
+   "version": 2,
+   "hash": "1gzutu1hief",
    "start": 1281,
    "end": 1322,
    "title": "Reprise : la montée repart, puissante",
@@ -1842,6 +1845,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 1281,
       "t1": 1322,
       "a0": 0.14,
@@ -1976,8 +1980,8 @@
   },
   {
    "id": "p01529",
-   "version": 1,
-   "hash": "lbxgwjqvyc",
+   "version": 2,
+   "hash": "1e8qw2qtjt9",
    "start": 1529,
    "end": 1752,
    "title": "L'éruption se prépare : la lave remonte les tunnels",
@@ -2004,6 +2008,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 1529,
       "t1": 1752,
       "a0": 0.06,
@@ -2045,8 +2050,8 @@
   },
   {
    "id": "p01932",
-   "version": 1,
-   "hash": "bgz9dg5r41",
+   "version": 2,
+   "hash": "497no5ng9s",
    "start": 1932,
    "end": 1960,
    "title": "Éboulement puis éruption",
@@ -2070,6 +2075,7 @@
      },
      {
       "n": "Battement",
+      "layer": "mod",
       "t0": 1932,
       "t1": 1960,
       "a0": 0.18,
