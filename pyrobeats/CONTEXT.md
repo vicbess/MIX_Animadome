@@ -12,6 +12,7 @@ Un mix de 49:37 qui raconte une éruption volcanique : terre aride, braises qui 
 - Pas plus de **3 familles de couleurs par phase**, sauf intention contraire (ex. la collision lave-océan).
 
 ## Règles posées par l'auteur
+- **Rythme (valable pour toutes les animations du mix)** : le mix est majoritairement de la drum & bass, menée par la batterie et la caisse claire. **Chaque kick ou coup de batterie doit donner une pulsation générale du dôme** ; **chaque variation de dubstep (wobble de basse, synthés) doit chaîner un effet** (anim secondaire) ; **chaque accélération, ralentissement ou montée de la musique doit se ressentir dans l'animation** (ex. phase 11, 12:51,4 → 12:59,8 : montée avec un bruit de bouilloire juste avant le drop). Une anim de base qui ne pulse pas avec le rythme est refusée, même dans une phase « calme ».
 - En cas de contradiction entre deux consignes, **la plus récente gagne** ; on ne supprime jamais en silence ce qui a été demandé (on le signale).
 - Le texte du descriptif doit toujours décrire ce que fait vraiment l'animation (jamais de texte périmé).
 - **Events** : un event est invoqué par son nom, qui reste **unique** (18 caractères max). Catégories de la banque : Volcano, Geometric, Basics, Nature, Water. Les descriptions de la banque ne contiennent **ni timing ni couleur**.
@@ -26,6 +27,12 @@ Un mix de 49:37 qui raconte une éruption volcanique : terre aride, braises qui 
 - Les couleurs des variations et des events gardent la palette de la phase sauf raison créative (descriptif ou interprétation musicale) ; pas de bazar colorimétrique. Le tempo suit les changements de tempo à l'intérieur d'une phase.
 - Nouveaux events de la banque (1.3) : *OndeDeChoc*, *Spirale*, *Balayage* (Geometric / Basics), *Marée*, *Bulles* (Water), *Cendres* (Volcano). Les détails ponctuels (étincelles, etc.) doivent devenir des events de la banque, sans doublon.
 - *Vibration* : à utiliser avec parcimonie (flashs rapides, photosensibilité).
+## Phase 11 refaite (test, novembre 2026)
+- La phase 11 va de **11:10 à 13:55** (et non 13:21). Consigne de l'auteur : les passages lents suivent « Recul sur la montagne : majesté calme, éclairs » (lueurs lentes rouge sombre et orange, touches inhabituelles violet / rose / bleu, éclairs blancs-bleutés ponctuels) ; les passages rapides suivent l'esprit de la phase 12 (« coulées rapides du sommet vers la base ») ; **dans l'ensemble, privilégier la majesté calme**. Il y a beaucoup de voix sur cette phase.
+- Les pistes exportées sont **muettes de 11:31 à 13:21 et de 13:44 à 13:51** alors que le mix joue : `tools/fill-gaps.py` analyse le mix lui-même sur ces trous (kicks, temps, départs de sons) et complète l'analyse. À relancer après toute nouvelle analyse du mix.
+- Base : *Montagne* (cratère, flancs, touches de couleur liées à la voix) + *Coulées* seulement dans les passages rapides (fenêtres `win` dans `fxmap.js`). Variations et events de la phase : `layers-plan.json` et `events-plan.json` (calés à la main sur les frappes réelles, `snap:false`).
+- Nouveaux events de la banque : *Foudre*, *Aurore*, *ÉchoCristal* (Nature), *Panache* (Volcano).
+- Retour arrière : `clean/backups/avant-refonte-phase11/` contient tous les fichiers d'avant.
 ## Travail en cours / à ne pas faire
 - Pas d'export TouchDesigner / sACN / DMX pour le moment (un ami s'en chargera plus tard).
 - Pas d'animations « globales » sans raison musicale.

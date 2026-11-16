@@ -2,8 +2,8 @@
  "format": 1,
  "mix": "pyrobeats",
  "user": "vicbess",
- "publishedAt": "2026-11-15T13:02:52.844Z",
- "toolVersion": "1.2.0",
+ "publishedAt": "2026-11-16T13:29:10.946Z",
+ "toolVersion": "1.3.0",
  "audio": "audio/pyrobeats_128k.mp3",
  "duration": 2977,
  "phases": [
@@ -562,8 +562,8 @@
   },
   {
    "id": "p00280",
-   "version": 1,
-   "hash": "1zd4104m09g",
+   "version": 2,
+   "hash": "x4byuo396o",
    "start": 280,
    "end": 345,
    "title": "La lave émerge en bouillonnant, lente et rampante",
@@ -683,7 +683,7 @@
     {
      "dup": 1,
      "k": "05:27",
-     "on": 298.55,
+     "on": 298.6,
      "span": 1.25
     },
     {
@@ -1483,41 +1483,83 @@
   },
   {
    "id": "p00670",
-   "version": 1,
-   "hash": "168tp79fiwg",
+   "version": 2,
+   "hash": "23degdpr58z",
    "start": 670,
-   "end": 801,
+   "end": 835,
    "title": "Recul sur la montagne : majesté calme, éclairs",
-   "descriptif": "[11:10 => 13:21] Recul sur la montagne : majesté calme, éclairs\nPhase calme : on prend du recul pour contempler la majesté de la montagne, grandiose mais assez calme vue de loin. Des éclairs strient parfois le ciel.\n**Lueurs lentes rouge sombre et orange avec quelques touches de couleur inhabituelles (violet, rose) ; éclairs blancs-bleutés ponctuels sur les aigus.**\n_Son : retombée, moins dense (surtout 11:30–12:00)._",
+   "descriptif": "[11:10 => 13:55] Recul sur la montagne : majesté calme, éclairs\nOn prend du recul pour contempler la majesté de la montagne, grandiose mais assez calme vue de loin. Des éclairs strient parfois le ciel. Dans les passages plus rapides, des coulées dévalent du sommet vers la base, mais la majesté calme domine.\n**▸ Montagne**\n**• Le dôme devient la montagne vue de loin : un cratère rougeoyant au sommet respire lentement et suit la basse ; des lueurs lentes rouge sombre et orange glissent sur les flancs, avec cinq veines de lave à peine visibles.**\n**• Quelques touches de couleur inhabituelles par rapport au reste du mix (violet, rose, bleu) dérivent sur le pourtour et s'ouvrent quand la voix chante.**\n**• Le cratère bat sur chaque kick dès que la batterie joue ; ses lueurs et sa respiration accélèrent avec la musique et ralentissent dans les passages calmes.**\n**• La montagne s'efface à moitié quand les coulées passent, reprend toute la place dans les suspensions (12:36, 12:52) et s'assombrit dans le grand calme (13:21 → 13:44).**\n**▸ Coulées**\n**• Seulement dans les passages rapides (12:16 → 12:36, 12:40 → 12:52, 13:00 → 13:20 et la reprise de 13:44) : vagues larges et coulées qui serpentent du sommet vers la base, rouge, orange, jaune, comme dans la phase suivante mais moins fortes.**\n**• Elles accélèrent à chaque retour du rythme, jusqu'au roulement final de 13:20.**\n**▸ BattementDnB**\n**• Pulsation générale : tout le dôme pulse en luminance sur chaque kick (profond) et chaque caisse claire (plus léger) ; aucune pulsation quand la batterie se tait.**\n**▸ Grondement**\n**• À chaque variation de la basse ou des synthés (wobble dubstep), des ondulations orange partent du cratère vers le bord, en trois lobes qui changent d'orientation à chaque kick.**\n**▸ Events**\n**• Surchauffe (12:51 → 13:00) : pendant la montée au sifflement de bouilloire, des anneaux convergent vers le sommet de plus en plus vite (un par premier temps, puis un par kick du roulement), le dôme blanchit, puis tout se coupe juste avant le drop.**\n**• Foudre : éclairs blancs-bleutés ramifiés le long des barres, sur les coups marqués (11:21, 11:30, 11:40, 11:59, 12:36, 13:06, 13:11, 13:19, 13:36, 13:44), avec répliques quand les frappes se suivent.**\n**• ÉchoCristal (11:11 → 11:30) : chaque note de l'écho allume un éclat rose pâle ; le motif revient sept fois en tournant.**\n**• Aurore (11:32 → 11:47 et 12:40 → 12:52) : voiles violets, roses et bleus qui suivent la voix.**\n**• Spirale puis OndeDeChoc à 12:16 (départ du rythme plein), OndeDeChoc à 13:00 (retour du rythme).**\n**• Panache (13:21 → 13:44) : un panache de fumée s'étire au-dessus du cratère pendant le grand calme ; Ruée à 13:50 pour lancer la phase suivante.**\n_Son : retombée avec écho cristallin jusqu'à 11:30 ; voix sur un bourdon grave, sans batterie, jusqu'à 11:48 ; la batterie s'installe peu à peu, suspension sans basse de 12:04 à 12:16 ; rythme plein (176 bpm, kick toutes les 1,37 s) de 12:16 à 13:20 avec deux suspensions (12:36, 12:52) ; grand calme de 13:21 à 13:44 ; reprise à 13:44._",
    "fx": {
     "palette": "ember",
     "fx": [
      {
-      "n": "Pulsation audio",
-      "pal": "lava",
-      "level": 0.35
+      "n": "Montagne",
+      "pal": "ember",
+      "level": 1,
+      "beat": 0.5
      },
      {
-      "n": "Éclairs",
-      "rate": 0.4
+      "n": "Coulées",
+      "pal": "fire",
+      "mode": "both",
+      "level": 0.55,
+      "soft": 1,
+      "slow": true,
+      "win": [
+       [
+        735.9,
+        757.2,
+        1.6
+       ],
+       [
+        760.6,
+        772.4,
+        1.6
+       ],
+       [
+        779.8,
+        801.2,
+        1.4
+       ],
+       [
+        824.5,
+        836,
+        2.5
+       ]
+      ]
      },
      {
-      "n": "Étincelles",
+      "n": "BattementDnB",
+      "layer": "mod",
+      "on": "Montagne",
+      "depth": 0.5,
+      "snare": 0.7,
+      "minH": 4
+     },
+     {
+      "n": "Grondement",
+      "layer": "mod",
+      "on": "Montagne",
+      "pal": "lava"
+     },
+     {
+      "n": "VoixAnneau",
       "pal": "violet",
-      "amount": 0.25
+      "list": "Circles",
+      "ring": 4
      }
     ]
    },
    "events": []
   },
   {
-   "id": "p00801",
+   "id": "p00835",
    "version": 1,
-   "hash": "1b9woikkf7r",
-   "start": 801,
+   "hash": "rekzb2te74",
+   "start": 835,
    "end": 909,
    "title": "Coulées rapides du sommet vers la base",
-   "descriptif": "[13:21 => 15:09] Coulées rapides du sommet vers la base\nPhase rapide : la coulée de lave déferle depuis le haut du volcan vers le bas. Parfois uniformément, comme des vagues de lave ; parfois par coulées nombreuses qui serpentent.\n**Coulées du haut vers le bas du dôme : tantôt vagues uniformes sur tout le dôme, tantôt coulées nombreuses qui serpentent du centre vers le bord ; rouge, orange, jaune sur le rythme.**\n**• Adouci : les coulées uniformes avancent à vitesse constante en vagues larges et lisses (plus de flashs) ; les coulées serpentantes et les étincelles restent.**\n_Son : creux court vers 13:15–13:45, puis le rythme repart, dense, jusqu'à 15:00._",
+   "descriptif": "[13:55 => 15:09] Coulées rapides du sommet vers la base\nPhase rapide : la coulée de lave déferle depuis le haut du volcan vers le bas. Parfois uniformément, comme des vagues de lave ; parfois par coulées nombreuses qui serpentent.\n**Coulées du haut vers le bas du dôme : tantôt vagues uniformes sur tout le dôme, tantôt coulées nombreuses qui serpentent du centre vers le bord ; rouge, orange, jaune sur le rythme.**\n**• Adouci : les coulées uniformes avancent à vitesse constante en vagues larges et lisses (plus de flashs) ; les coulées serpentantes et les étincelles restent.**\n_Son : le rythme repart d'un coup à 13:55, dense, jusqu'à 15:00._",
    "fx": {
     "palette": "fire",
     "fx": [
@@ -1532,6 +1574,12 @@
       "n": "Étincelles",
       "pal": "fire",
       "amount": 0.35
+     },
+     {
+      "n": "VoixAnneau",
+      "pal": "violet",
+      "list": "Circles",
+      "ring": 4
      }
     ]
    },
