@@ -1,0 +1,22 @@
+{
+ "format": 1,
+ "mix": "sylvasonic",
+ "user": "vicbess",
+ "publishedAt": "2026-11-19T22:54:10.145Z",
+ "toolVersion": "2.3.0",
+ "audio": "audio.mp3",
+ "duration": 1397,
+ "phases": [
+  {
+   "id": "p00000",
+   "version": 1,
+   "hash": "1apl798fubs",
+   "start": 0,
+   "end": 1397,
+   "title": "À décrire",
+   "descriptif": "[00:00 => 23:17] À décrire",
+   "fx": null,
+   "events": []
+  }
+ ]
+}
